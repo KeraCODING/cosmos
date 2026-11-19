@@ -1,0 +1,90 @@
+{
+  "name": "cosmos",
+  "productName": "COSMOS",
+  "version": "0.6.0",
+  "description": "COSMOS - desktop universe explorer",
+  "author": "COSMOS Project",
+  "license": "UNLICENSED",
+  "private": true,
+  "type": "module",
+  "main": "out/main/index.cjs",
+  "scripts": {
+    "assets": "node scripts/copy-assets.mjs",
+    "data": "node scripts/fetch-science-data.mjs",
+    "icon": "node scripts/make-icon.mjs",
+    "dev": "npm run assets && electron-vite dev",
+    "build": "npm run assets && electron-vite build",
+    "start": "electron-vite preview",
+    "test": "vitest run",
+    "typecheck": "tsc --noEmit",
+    "i18n:check": "node scripts/check-i18n.mjs",
+    "smoke": "node scripts/smoke.mjs",
+    "dist": "npm run build && electron-builder --win nsis portable --x64",
+    "sky": "node scripts/bake-sky.mjs",
+    "hand:test": "node scripts/hand-test.mjs",
+    "moons": "node scripts/fetch-moons.mjs",
+    "world": "node scripts/fetch-world.mjs"
+  },
+  "build": {
+    "appId": "app.cosmos.explorer",
+    "productName": "COSMOS",
+    "copyright": "COSMOS Project",
+    "directories": {
+      "output": "release",
+      "buildResources": "build"
+    },
+    "files": [
+      "out/**/*",
+      "package.json",
+      "!node_modules/**/*"
+    ],
+    "win": {
+      "icon": "build/icon.ico",
+      "target": [
+        "nsis",
+        "portable"
+      ],
+      "signAndEditExecutable": true
+    },
+    "nsis": {
+      "oneClick": false,
+      "perMachine": false,
+      "allowToChangeInstallationDirectory": true,
+      "createDesktopShortcut": true,
+      "createStartMenuShortcut": true,
+      "shortcutName": "COSMOS",
+      "artifactName": "COSMOS-Setup-${version}.exe"
+    },
+    "portable": {
+      "artifactName": "COSMOS-${version}-portable.exe"
+    },
+    "npmRebuild": false,
+    "asar": true,
+    "electronLanguages": [
+      "en-US",
+      "az",
+      "ru"
+    ]
+  },
+  "dependencies": {
+    "@mediapipe/tasks-vision": "^1.2.3",
+    "astronomy-engine": "^2.1.19",
+    "cesium": "^1.147.0",
+    "i18next": "^27.1.5",
+    "three": "^0.187.0"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.6",
+    "@types/three": "^0.187.0",
+    "electron": "^45.3.4",
+    "electron-builder": "^26.18.0",
+    "electron-vite": "^6.0.0",
+    "jpeg-js": "^0.4.4",
+    "playwright-core": "^1.65.1",
+    "png-to-ico": "^3.0.2",
+    "pngjs": "^7.0.0",
+    "typescript": "^7.0.2",
+    "vite": "^8.3.8",
+    "vitest": "^5.1.1"
+  }
+}

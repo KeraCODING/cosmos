@@ -1,0 +1,11 @@
+node_modules/
+out/
+release/
+dist/
+*.log
+.claude/
+
+# Copied from node_modules by scripts/copy-assets.mjs
+src/renderer/public/cesium/
+src/renderer/public/mediapipe/
+src/renderer/public/icon.png

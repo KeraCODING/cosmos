@@ -1,0 +1,137 @@
+{
+ "source": "SIMBAD Astronomical Database (CDS)",
+ "url": "https://simbad.cds.unistra.fr/simbad/",
+ "retrieved": "2026-11-18",
+ "objects": [
+  {
+   "id": "sgra",
+   "simbad": "Sgr A*",
+   "kind": "blackhole",
+   "visualRadiusKpc": 0.02,
+   "ra": 266.41681662499997,
+   "dec": -29.00782497222222,
+   "distanceKpc": 8.178,
+   "measurements": 1
+  },
+  {
+   "id": "lmc",
+   "simbad": "LMC",
+   "kind": "irregular",
+   "visualRadiusKpc": 5,
+   "ra": 80.89416666666666,
+   "dec": -69.75611111111111,
+   "distanceKpc": 50,
+   "measurements": 8
+  },
+  {
+   "id": "smc",
+   "simbad": "SMC",
+   "kind": "irregular",
+   "visualRadiusKpc": 3,
+   "ra": 13.158333333333333,
+   "dec": -72.80027777777778,
+   "distanceKpc": 60,
+   "measurements": 10
+  },
+  {
+   "id": "m31",
+   "simbad": "M 31",
+   "kind": "spiral",
+   "visualRadiusKpc": 30,
+   "ra": 10.684708333333333,
+   "dec": 41.268750000000004,
+   "distanceKpc": 774.5,
+   "measurements": 14
+  },
+  {
+   "id": "m33",
+   "simbad": "M 33",
+   "kind": "spiral",
+   "visualRadiusKpc": 9,
+   "ra": 23.46206906218,
+   "dec": 30.660175111980003,
+   "distanceKpc": 845.6,
+   "measurements": 16
+  },
+  {
+   "id": "m81",
+   "simbad": "M 81",
+   "kind": "spiral",
+   "visualRadiusKpc": 14,
+   "ra": 148.88821939854,
+   "dec": 69.06529514038,
+   "distanceKpc": 3630,
+   "measurements": 17
+  },
+  {
+   "id": "m82",
+   "simbad": "M 82",
+   "kind": "irregular",
+   "visualRadiusKpc": 6,
+   "ra": 148.96845833333333,
+   "dec": 69.67970277777778,
+   "distanceKpc": 3614,
+   "measurements": 11
+  },
+  {
+   "id": "ngc253",
+   "simbad": "NGC 253",
+   "kind": "spiral",
+   "visualRadiusKpc": 14,
+   "ra": 11.888058333333333,
+   "dec": -25.288800000000002,
+   "distanceKpc": 3698,
+   "measurements": 15
+  },
+  {
+   "id": "cena",
+   "simbad": "NGC 5128",
+   "kind": "elliptical",
+   "visualRadiusKpc": 15,
+   "ra": 201.36506337683332,
+   "dec": -43.019112508083325,
+   "distanceKpc": 3726,
+   "measurements": 12
+  },
+  {
+   "id": "m51",
+   "simbad": "M 51",
+   "kind": "spiral",
+   "visualRadiusKpc": 12,
+   "ra": 202.469575,
+   "dec": 47.19525833333333,
+   "distanceKpc": 7660,
+   "measurements": 10
+  },
+  {
+   "id": "m101",
+   "simbad": "M 101",
+   "kind": "spiral",
+   "visualRadiusKpc": 25,
+   "ra": 210.80242916666668,
+   "dec": 54.34875,
+   "distanceKpc": 6950,
+   "measurements": 12
+  },
+  {
+   "id": "m104",
+   "simbad": "M 104",
+   "kind": "lenticular",
+   "visualRadiusKpc": 15,
+   "ra": 189.99763274591663,
+   "dec": -11.623054494444448,
+   "distanceKpc": 11270,
+   "measurements": 16
+  },
+  {
+   "id": "m87",
+   "simbad": "M 87",
+   "kind": "elliptical",
+   "visualRadiusKpc": 40,
+   "ra": 187.70593076725,
+   "dec": 12.391123246083334,
+   "distanceKpc": 17100,
+   "measurements": 8
+  }
+ ]
+}

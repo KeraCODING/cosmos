@@ -1,0 +1,445 @@
+{
+  "bodies": {
+    "sun": {
+      "name": "Sun",
+      "type": "G-type main-sequence star",
+      "simple": "The Sun is the star at the centre of our Solar System. Its light and heat make life on Earth possible.",
+      "detailed": "The Sun is a hot ball of plasma powered by hydrogen fusion in its core. Energy moves outward by radiation and then convection before escaping from the photosphere. Its magnetic field drives sunspots, flares and the solar wind that fills the heliosphere.",
+      "facts": [
+        "The Sun holds about 99.8% of the Solar System's mass.",
+        "Sunlight takes about 8 minutes 20 seconds to reach Earth.",
+        "Solar activity rises and falls in a cycle of roughly 11 years."
+      ],
+      "history": "In 1543 Copernicus published a model with the Sun at the centre. In the twentieth century, nuclear physics explained how the Sun produces energy, and Hans Bethe described the fusion process in 1939.",
+      "significance": "The Sun is the nearest star, so it is the reference for understanding the structure and evolution of other stars."
+    },
+    "mercury": {
+      "name": "Mercury",
+      "type": "Terrestrial planet",
+      "simple": "Mercury is the smallest planet and the closest to the Sun. It has almost no air, so its days are scorching and its nights are freezing.",
+      "detailed": "Mercury has a very large metallic core and only a thin surface-bound exosphere. It rotates exactly three times for every two orbits, a 3:2 spin-orbit resonance. Radar and spacecraft data show water ice in permanently shadowed polar craters.",
+      "facts": [
+        "One solar day on Mercury lasts about two Mercurian years.",
+        "It has the most eccentric orbit of the eight planets.",
+        "Its orbit's slow precession helped confirm general relativity."
+      ],
+      "history": "Mercury has been known since antiquity. Mariner 10 made the first flybys in 1974 and 1975, and MESSENGER orbited it from 2011 to 2015.",
+      "significance": "Its dense interior and orbit test ideas about planet formation and gravity close to a star."
+    },
+    "venus": {
+      "name": "Venus",
+      "type": "Terrestrial planet",
+      "simple": "Venus is almost as large as Earth, but it is covered in thick clouds and is the hottest planet.",
+      "detailed": "A dense carbon dioxide atmosphere and sulfuric acid clouds create an extreme greenhouse effect. Venus rotates slowly in the retrograde direction, while its upper atmosphere circles the planet far faster than the surface turns. Radar mapping revealed volcanic plains and highland regions beneath the clouds.",
+      "facts": [
+        "Venus rotates in the opposite direction to most planets.",
+        "Its surface is hot enough to melt lead.",
+        "Its sidereal day is longer than its year."
+      ],
+      "history": "Galileo observed the phases of Venus in 1610, supporting the Sun-centred model. Mariner 2 flew past in 1962, the Soviet Venera landers reached the surface, and Magellan mapped it by radar in the 1990s.",
+      "significance": "Venus shows how a world similar in size to Earth can evolve into a very different climate."
+    },
+    "earth": {
+      "name": "Earth",
+      "type": "Terrestrial planet",
+      "simple": "Earth is our home and the only world where life is known to exist. Most of its surface is covered by oceans.",
+      "detailed": "Earth has a nitrogen and oxygen atmosphere, liquid surface water, active plate tectonics and a magnetic field generated in its outer core. The tilt of its axis causes the seasons. These systems interact through the carbon and water cycles that shape its climate.",
+      "facts": [
+        "About 71% of Earth's surface is covered by water.",
+        "It is the densest planet in the Solar System.",
+        "Its axial tilt, not its distance from the Sun, causes the seasons."
+      ],
+      "history": "Eratosthenes estimated Earth's circumference in the third century BCE. Satellites since 1957 and the Apollo photographs have shown the planet as a single connected system.",
+      "significance": "Earth is the reference point for studying habitability on every other world."
+    },
+    "moon": {
+      "name": "Moon",
+      "type": "Natural satellite of Earth",
+      "simple": "The Moon is Earth's only natural satellite. We always see nearly the same side because it rotates once per orbit.",
+      "detailed": "The Moon is tidally locked to Earth and probably formed after a giant impact early in Solar System history. Dark basaltic maria and bright cratered highlands record its past. Its gravity is the main cause of Earth's ocean tides.",
+      "facts": [
+        "Twelve people walked on the Moon between 1969 and 1972.",
+        "The Moon moves away from Earth by about 3.8 cm each year.",
+        "Eclipses occur when the Sun, Earth and Moon line up closely."
+      ],
+      "history": "Galileo described its mountains and craters in 1610. Luna 2 reached the surface in 1959, and Apollo 11 landed the first people there in 1969.",
+      "significance": "Its ancient surface preserves a record of the early Solar System that Earth has largely erased."
+    },
+    "mars": {
+      "name": "Mars",
+      "type": "Terrestrial planet",
+      "simple": "Mars is a cold desert world with a red colour caused by iron oxide dust. Ancient rivers and lakes left marks on its surface.",
+      "detailed": "Mars has a thin carbon dioxide atmosphere, polar ice caps and seasons similar in rhythm to Earth's. Valleys, deltas and minerals formed in water show that its early climate was different. Olympus Mons and Valles Marineris are among the largest known surface features in the Solar System.",
+      "facts": [
+        "Olympus Mons is the tallest known planetary volcano.",
+        "A Martian solar day is about 24 hours 40 minutes.",
+        "Mars has two small moons, Phobos and Deimos."
+      ],
+      "history": "Asaph Hall discovered its moons in 1877. Mariner 4 returned the first close images in 1965, and Viking landed in 1976, followed by a series of rovers.",
+      "significance": "Mars is a leading place to search for evidence of past life and to prepare for human exploration."
+    },
+    "jupiter": {
+      "name": "Jupiter",
+      "type": "Gas giant",
+      "simple": "Jupiter is the largest planet. It is a giant ball of gas with colourful cloud bands and huge storms.",
+      "detailed": "Jupiter is mostly hydrogen and helium, and deep inside the pressure turns hydrogen into an electrically conducting fluid. This produces the strongest planetary magnetic field in the Solar System. Its rapid rotation organizes the atmosphere into bands and jets.",
+      "facts": [
+        "Jupiter has the shortest day of the eight planets.",
+        "The Great Red Spot is a long-lived giant storm.",
+        "Its moon Europa is thought to hold an ocean under its ice."
+      ],
+      "history": "Galileo discovered its four largest moons in 1610. Pioneer, Voyager, Galileo and Juno have since studied the system up close.",
+      "significance": "Its gravity strongly influenced how the other planets and small bodies were arranged."
+    },
+    "saturn": {
+      "name": "Saturn",
+      "type": "Gas giant",
+      "simple": "Saturn is the planet famous for its bright rings, made of countless pieces of ice and rock.",
+      "detailed": "Saturn is a hydrogen and helium giant with a mean density lower than water. Its rings are very wide but extremely thin, and moons shape their gaps and edges. Its moon Titan has a thick atmosphere and lakes of liquid hydrocarbons.",
+      "facts": [
+        "Saturn is the least dense planet.",
+        "The Cassini Division is a wide gap in the rings.",
+        "Enceladus sprays water-rich plumes into space."
+      ],
+      "history": "Galileo saw its odd shape in 1610, and Christiaan Huygens explained the ring in 1659. The Cassini spacecraft orbited Saturn from 2004 to 2017.",
+      "significance": "Its rings act as a natural laboratory for processes that also occur in planet-forming discs."
+    },
+    "uranus": {
+      "name": "Uranus",
+      "type": "Ice giant",
+      "simple": "Uranus is a blue-green ice giant that spins tipped over on its side.",
+      "detailed": "Uranus has a hydrogen, helium and methane atmosphere above a deep interior rich in water, ammonia and methane. Its extreme axial tilt produces very long seasons. Its faint rings and offset magnetic field make it unusual among the planets.",
+      "facts": [
+        "It was the first planet discovered with a telescope.",
+        "Its rotation is retrograde under the IAU north-pole convention.",
+        "Methane in its atmosphere absorbs red light."
+      ],
+      "history": "William Herschel discovered Uranus in 1781. Voyager 2 is the only spacecraft to have visited, flying past in 1986.",
+      "significance": "Ice giants appear common around other stars, so Uranus helps explain a major class of exoplanets."
+    },
+    "neptune": {
+      "name": "Neptune",
+      "type": "Ice giant",
+      "simple": "Neptune is the farthest planet from the Sun, a deep-blue world with very fast winds.",
+      "detailed": "Neptune is an ice giant with an active atmosphere and an internal heat source. Its largest moon, Triton, orbits in the retrograde direction and is probably a captured object. Dark storms appear and fade in its clouds.",
+      "facts": [
+        "Neptune was found through mathematical prediction.",
+        "Its winds are among the fastest in the Solar System.",
+        "One orbit takes about 165 Earth years."
+      ],
+      "history": "Urbain Le Verrier predicted its position, and Johann Galle observed it in 1846. Voyager 2 flew past in 1989.",
+      "significance": "Its discovery showed the predictive power of Newtonian gravity."
+    },
+    "phobos": {
+      "name": "Phobos",
+      "type": "Moon of Mars",
+      "simple": "Phobos is the larger of Mars’s two small moons, shaped more like a potato than a ball.",
+      "detailed": "Phobos orbits so close that it circles Mars faster than the planet rotates. Tidal forces are slowly lowering its orbit.",
+      "facts": [
+        "From Mars it rises in the west and sets in the east.",
+        "Its largest crater is named Stickney.",
+        "It completes an orbit in under 8 hours."
+      ],
+      "history": "Asaph Hall discovered Phobos in 1877 at the US Naval Observatory.",
+      "significance": "Its origin, by capture or from debris around Mars, helps test ideas about the early Martian system."
+    },
+    "deimos": {
+      "name": "Deimos",
+      "type": "Moon of Mars",
+      "simple": "Deimos is the smaller and more distant moon of Mars.",
+      "detailed": "Deimos is a small, irregular body with a smooth-looking surface covered in loose rock and dust. It orbits Mars in about 30 hours.",
+      "facts": [
+        "It is one of the smallest known moons.",
+        "Its surface looks smoother than Phobos.",
+        "From Mars it would look like a bright star."
+      ],
+      "history": "Asaph Hall discovered Deimos in 1877, days before Phobos.",
+      "significance": "Together with Phobos it is a key target for understanding how Mars gained its moons."
+    },
+    "io": {
+      "name": "Io",
+      "type": "Moon of Jupiter",
+      "simple": "Io is the most volcanically active world in the Solar System.",
+      "detailed": "Tidal flexing from Jupiter, maintained by orbital resonance with Europa and Ganymede, heats Io’s interior. Sulfur compounds colour its surface.",
+      "facts": [
+        "Hundreds of volcanoes are active or recently active.",
+        "Io, Europa and Ganymede are locked in a 4:2:1 resonance.",
+        "Its plumes feed a ring of charged particles around Jupiter."
+      ],
+      "history": "Galileo Galilei discovered Io in January 1610. Voyager 1 found its volcanoes in 1979.",
+      "significance": "Io shows how tidal energy can power geology far from the Sun."
+    },
+    "europa": {
+      "name": "Europa",
+      "type": "Moon of Jupiter",
+      "simple": "Europa is an icy moon with a global salty ocean thought to lie beneath its crust.",
+      "detailed": "Its young surface is crossed by long dark fractures. Magnetic measurements support a conducting ocean below the ice.",
+      "facts": [
+        "It has very few large craters.",
+        "Its dark lines are called lineae.",
+        "NASA’s Europa Clipper launched in 2024 to study it."
+      ],
+      "history": "Galileo Galilei discovered Europa in January 1610.",
+      "significance": "Its ocean makes it one of the best places to look for conditions suitable for life."
+    },
+    "ganymede": {
+      "name": "Ganymede",
+      "type": "Moon of Jupiter",
+      "simple": "Ganymede is the largest moon in the Solar System, bigger than the planet Mercury.",
+      "detailed": "It is the only moon known to generate its own magnetic field. Dark ancient terrain and brighter grooved terrain cover its surface.",
+      "facts": [
+        "Its diameter exceeds Mercury’s.",
+        "It has its own magnetosphere.",
+        "ESA’s JUICE mission is on its way to orbit it."
+      ],
+      "history": "Galileo Galilei discovered Ganymede in January 1610.",
+      "significance": "It offers a natural laboratory for magnetism and buried oceans in icy worlds."
+    },
+    "callisto": {
+      "name": "Callisto",
+      "type": "Moon of Jupiter",
+      "simple": "Callisto is an ancient, heavily cratered moon of ice and rock.",
+      "detailed": "Callisto lies beyond Jupiter’s strongest radiation and shows little sign of internal activity. Its surface preserves a long impact record.",
+      "facts": [
+        "Valhalla is a giant multi-ring impact basin.",
+        "It is the outermost Galilean moon.",
+        "It may hide a deep ocean."
+      ],
+      "history": "Galileo Galilei discovered Callisto in January 1610.",
+      "significance": "Its old surface records the history of impacts in the outer Solar System."
+    },
+    "mimas": {
+      "name": "Mimas",
+      "type": "Moon of Saturn",
+      "simple": "Mimas is a small icy moon with one enormous crater.",
+      "detailed": "Mimas is mostly water ice. Its gravity helps shape Saturn’s rings through orbital resonance.",
+      "facts": [
+        "Herschel crater spans about a third of its width.",
+        "A resonance with Mimas helps maintain the Cassini Division.",
+        "It orbits Saturn in less than a day."
+      ],
+      "history": "William Herschel discovered Mimas in 1789.",
+      "significance": "It shows how moons sculpt ring systems."
+    },
+    "enceladus": {
+      "name": "Enceladus",
+      "type": "Moon of Saturn",
+      "simple": "Enceladus is a bright icy moon that sprays water into space.",
+      "detailed": "Jets from cracks near its south pole come from a subsurface ocean. The material supplies Saturn’s E ring.",
+      "facts": [
+        "It is among the most reflective objects in the Solar System.",
+        "Its south-polar cracks are called tiger stripes.",
+        "Cassini flew through its plumes."
+      ],
+      "history": "William Herschel discovered Enceladus in 1789. Cassini revealed its plumes in 2005.",
+      "significance": "Its plumes allow an ocean to be sampled from space."
+    },
+    "tethys": {
+      "name": "Tethys",
+      "type": "Moon of Saturn",
+      "simple": "Tethys is an icy moon marked by a huge crater and a long canyon.",
+      "detailed": "Its low density indicates that it is mostly water ice. Two tiny moons share its orbit.",
+      "facts": [
+        "Odysseus is its giant impact crater.",
+        "Ithaca Chasma stretches across much of the moon.",
+        "Telesto and Calypso share its orbit."
+      ],
+      "history": "Giovanni Domenico Cassini discovered Tethys in 1684.",
+      "significance": "It helps show how icy moons respond to giant impacts."
+    },
+    "dione": {
+      "name": "Dione",
+      "type": "Moon of Saturn",
+      "simple": "Dione is an icy moon crossed by bright fractured cliffs.",
+      "detailed": "Dione has dense ice and rock, with heavily cratered plains and long tectonic fractures.",
+      "facts": [
+        "Its wispy streaks are ice cliffs.",
+        "Helene and Polydeuces share its orbit.",
+        "It is in resonance with Enceladus."
+      ],
+      "history": "Giovanni Domenico Cassini discovered Dione in 1684.",
+      "significance": "Its fractures record past tectonic activity in an icy crust."
+    },
+    "rhea": {
+      "name": "Rhea",
+      "type": "Moon of Saturn",
+      "simple": "Rhea is Saturn’s second-largest moon, a cold world of ice and rock.",
+      "detailed": "Rhea has an ancient cratered surface and bright fractures. It is nearly uniform inside compared with larger moons.",
+      "facts": [
+        "Only Titan is larger among Saturn’s moons.",
+        "Most of it is water ice.",
+        "Its surface is heavily cratered."
+      ],
+      "history": "Giovanni Domenico Cassini discovered Rhea in 1672.",
+      "significance": "It is a useful example of a mid-sized icy moon."
+    },
+    "titan": {
+      "name": "Titan",
+      "type": "Moon of Saturn",
+      "simple": "Titan is Saturn’s largest moon, with a thick orange atmosphere.",
+      "detailed": "Titan has a dense nitrogen atmosphere and a methane cycle with clouds, rain, rivers and lakes on its surface.",
+      "facts": [
+        "It is the only moon with a dense atmosphere.",
+        "Liquid methane and ethane fill its lakes.",
+        "ESA’s Huygens probe landed there in 2005."
+      ],
+      "history": "Christiaan Huygens discovered Titan in 1655.",
+      "significance": "Its chemistry offers clues about processes that may precede life."
+    },
+    "iapetus": {
+      "name": "Iapetus",
+      "type": "Moon of Saturn",
+      "simple": "Iapetus is a two-toned moon, with one dark side and one bright side.",
+      "detailed": "Dark material coats its leading hemisphere, and a tall ridge follows much of its equator.",
+      "facts": [
+        "Its brightness differs greatly between hemispheres.",
+        "It has a striking equatorial ridge.",
+        "It orbits far from Saturn."
+      ],
+      "history": "Giovanni Domenico Cassini discovered Iapetus in 1671 and noticed its changing brightness.",
+      "significance": "It shows how migrating dust and ice can reshape a surface."
+    },
+    "miranda": {
+      "name": "Miranda",
+      "type": "Moon of Uranus",
+      "simple": "Miranda is a small moon with one of the strangest surfaces known.",
+      "detailed": "Miranda combines old cratered land with young, grooved regions called coronae.",
+      "facts": [
+        "Verona Rupes is an enormous cliff.",
+        "It is the smallest of Uranus’s five major moons.",
+        "Voyager 2 imaged it in 1986."
+      ],
+      "history": "Gerard Kuiper discovered Miranda in 1948.",
+      "significance": "Its surface suggests intense past heating in a very small body."
+    },
+    "ariel": {
+      "name": "Ariel",
+      "type": "Moon of Uranus",
+      "simple": "Ariel is a bright moon with deep valleys and a relatively young surface.",
+      "detailed": "Ariel’s fault valleys and smooth plains suggest past geological activity.",
+      "facts": [
+        "It is among Uranus’s brightest moons.",
+        "Long canyons cross its surface.",
+        "Only Voyager 2 has visited it."
+      ],
+      "history": "William Lassell discovered Ariel in 1851.",
+      "significance": "It helps reveal how ice giants’ moons evolved."
+    },
+    "umbriel": {
+      "name": "Umbriel",
+      "type": "Moon of Uranus",
+      "simple": "Umbriel is the darkest of Uranus’s large moons.",
+      "detailed": "Its old, cratered surface is unusually dark and shows little evidence of recent change.",
+      "facts": [
+        "Wunda is a bright ring-like feature.",
+        "It reflects little sunlight.",
+        "Its surface appears very old."
+      ],
+      "history": "William Lassell discovered Umbriel in 1851.",
+      "significance": "It offers a contrast to more active neighbouring moons."
+    },
+    "titania": {
+      "name": "Titania",
+      "type": "Moon of Uranus",
+      "simple": "Titania is the largest moon of Uranus.",
+      "detailed": "Titania has craters and large fault canyons that suggest its crust once expanded.",
+      "facts": [
+        "It is the largest Uranian moon.",
+        "Messina Chasmata is a major canyon system.",
+        "It was seen closely only by Voyager 2."
+      ],
+      "history": "William Herschel discovered Titania in 1787.",
+      "significance": "It may provide clues about water inside mid-sized icy moons."
+    },
+    "oberon": {
+      "name": "Oberon",
+      "type": "Moon of Uranus",
+      "simple": "Oberon is the outermost large moon of Uranus.",
+      "detailed": "Oberon has an old, heavily cratered surface, with dark material on some crater floors.",
+      "facts": [
+        "It is the second-largest Uranian moon.",
+        "It orbits outside the other major moons.",
+        "Voyager 2 saw only part of it."
+      ],
+      "history": "William Herschel discovered Oberon in 1787.",
+      "significance": "Its craters preserve a record of impacts around Uranus."
+    },
+    "triton": {
+      "name": "Triton",
+      "type": "Moon of Neptune",
+      "simple": "Triton is Neptune’s largest moon and orbits in the opposite direction to the planet’s spin.",
+      "detailed": "Its retrograde orbit suggests capture from the Kuiper belt. Voyager 2 saw plumes and a young, icy surface.",
+      "facts": [
+        "It is one of the coldest known surfaces in the Solar System.",
+        "Its orbit is retrograde.",
+        "It has a thin nitrogen atmosphere."
+      ],
+      "history": "William Lassell discovered Triton in 1846, just after Neptune itself.",
+      "significance": "It may be a captured relative of Pluto."
+    }
+  },
+  "imagery": {
+    "procedural": "Surface shown is an artistic representation generated by the app, not a map of this world.",
+    "limbDarkening": "Limb darkening is modelled. The moving surface and spots are illustrative, not live solar imagery.",
+    "naturalEarth": "Surface from the Natural Earth II map (bundled with CesiumJS).",
+    "cesiumMoon": "Surface from a real lunar image map bundled with CesiumJS."
+  },
+  "galaxies": {
+    "milkyway": {
+      "name": "Milky Way",
+      "text": "The barred spiral galaxy that contains our Solar System."
+    },
+    "sgra": {
+      "name": "Sagittarius A*",
+      "text": "The supermassive black hole at the centre of the Milky Way, about 4 million times the mass of the Sun."
+    },
+    "lmc": {
+      "name": "Large Magellan Cloud",
+      "text": "The brightest satellite galaxy of the Milky Way, visible in the southern sky."
+    },
+    "smc": {
+      "name": "Small Magellan Cloud",
+      "text": "A small dwarf galaxy near the Milky Way."
+    },
+    "m31": {
+      "name": "Andromeda Galaxy",
+      "text": "The nearest large spiral galaxy, visible to the naked eye."
+    },
+    "m33": {
+      "name": "Triangulum Galaxy",
+      "text": "The third-largest galaxy in the Local Group."
+    },
+    "m81": {
+      "name": "Bode's Galaxy",
+      "text": "A bright spiral galaxy in Ursa Major."
+    },
+    "m82": {
+      "name": "Cigar Galaxy",
+      "text": "A galaxy known for its intense burst of star formation."
+    },
+    "ngc253": {
+      "name": "Sculptor Galaxy",
+      "text": "A bright spiral galaxy with active star formation."
+    },
+    "cena": {
+      "name": "Centaurus A",
+      "text": "A nearby active galaxy with strong radio emission."
+    },
+    "m51": {
+      "name": "Whirlpool Galaxy",
+      "text": "A classic spiral galaxy interacting with a smaller companion."
+    },
+    "m101": {
+      "name": "Pinwheel Galaxy",
+      "text": "A large spiral galaxy seen nearly face-on."
+    },
+    "m104": {
+      "name": "Sombrero Galaxy",
+      "text": "Known for its bright core and dark dust lane."
+    },
+    "m87": {
+      "name": "Messier 87",
+      "text": "A giant elliptical galaxy whose central black hole was first imaged in results published in 2019."
+    }
+  }
+}

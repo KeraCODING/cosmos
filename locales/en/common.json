@@ -1,0 +1,572 @@
+{
+  "nav": {
+    "label": "Main navigation",
+    "solar": "Solar System",
+    "earth": "Earth Explorer",
+    "events": "Events",
+    "library": "Collections",
+    "galaxy": "Galaxy"
+  },
+  "net": {
+    "online": "Online",
+    "offline": "Offline mode",
+    "nonet": "No connection",
+    "tip": "Switch between online and offline mode"
+  },
+  "action": {
+    "back": "Back",
+    "forward": "Forward",
+    "home": "Home view",
+    "search": "Search",
+    "settings": "Settings",
+    "fullscreen": "Fullscreen (F11)",
+    "help": "Controls and credits",
+    "close": "Close",
+    "focus": "Focus",
+    "openEarth": "Explore Earth",
+    "favorite": "Add to favorites",
+    "unfavorite": "Remove from favorites",
+    "bookmark": "Save this view",
+    "remove": "Remove",
+    "driveRover": "Drive the rover"
+  },
+  "common": {
+    "unavailable": "not available"
+  },
+  "panel": {
+    "search": "Search",
+    "settings": "Settings",
+    "events": "Astronomical events",
+    "library": "Collections",
+    "help": "Controls and credits",
+    "hands": "Hand control",
+    "consent": "Camera permission"
+  },
+  "time": {
+    "paused": "Paused",
+    "pause": "Pause (Space)",
+    "resume": "Resume (Space)",
+    "faster": "Faster",
+    "slower": "Slower",
+    "reverse": "Reverse time",
+    "now": "Now",
+    "nowTip": "Return to the current time at real speed",
+    "date": "Simulation date and time (UTC)",
+    "rate0": "real time",
+    "rate1": "1 min/s",
+    "rate2": "1 hour/s",
+    "rate3": "1 day/s",
+    "rate4": "1 week/s",
+    "rate5": "1 month/s",
+    "auto": "Auto",
+    "autoTip": "Chooses a speed that makes motion easy to see",
+    "spinCap": "spin and moons: 1 day/s"
+  },
+  "scale": {
+    "label": "Scale mode",
+    "educational": "Educational scale",
+    "true": "True scale",
+    "note": {
+      "educational": "Educational scale: sizes and distances are compressed and are not to scale. Directions are real.",
+      "true": "True scale: sizes and distances are proportional, so most planets are too small to see from afar."
+    }
+  },
+  "view": {
+    "orbits": "Orbits",
+    "labels": "Labels"
+  },
+  "evidence": {
+    "confirmed": "Confirmed data",
+    "confirmedTip": "Based on observations or measurements",
+    "estimate": "Estimate",
+    "estimateTip": "A scientific estimate",
+    "model": "Model",
+    "modelTip": "Calculated from a scientific model",
+    "artistic": "Artistic",
+    "artisticTip": "An illustration, not observed data"
+  },
+  "info": {
+    "data": "Data",
+    "learn": "Learn",
+    "level": "Explanation level",
+    "beginner": "Beginner",
+    "advanced": "Advanced",
+    "facts": "Important facts",
+    "history": "Discovery history",
+    "significance": "Scientific significance",
+    "related": "Related objects",
+    "reference": "NASA reference page",
+    "positionModel": "Position calculated with astronomy-engine for the simulation time.",
+    "factsEvidence": "Values below come from the source listed here.",
+    "source": "Source:",
+    "updated": "Retrieved: {{date}}",
+    "moons": "Moons"
+  },
+  "live": {
+    "sun": "From the Sun: {{au}} AU ({{km}} million km)",
+    "earth": "From Earth: {{km}} km",
+    "earthAu": "From Earth: {{au}} AU",
+    "origin": "Centre of the Solar System view",
+    "parent": "From {{name}}: {{km}} km"
+  },
+  "fact": {
+    "massE24Kg": "Mass",
+    "diameterKm": "Diameter",
+    "densityKgM3": "Mean density",
+    "gravityMS2": "Surface gravity",
+    "escapeVelocityKmS": "Escape velocity",
+    "rotationPeriodH": "Rotation period",
+    "lengthOfDayH": "Length of day",
+    "distanceFromSunE6Km": "Distance from Sun",
+    "distanceFromEarth": "Distance from Earth",
+    "orbitalPeriodDays": "Orbital period",
+    "orbitalVelocityKmS": "Orbital velocity",
+    "orbitalInclinationDeg": "Orbital inclination",
+    "orbitalEccentricity": "Orbital eccentricity",
+    "obliquityDeg": "Axial tilt",
+    "meanTemperatureC": "Mean temperature",
+    "moons": "Known moons",
+    "retrograde": "retrograde",
+    "semiMajorKm": "Orbit size"
+  },
+  "unit": {
+    "e24kg": "{{v}} × 10²⁴ kg",
+    "km": "{{v}} km",
+    "kgm3": "{{v}} kg/m³",
+    "ms2": "{{v}} m/s²",
+    "kms": "{{v}} km/s",
+    "h": "{{v}} h",
+    "e6km": "{{v}} million km",
+    "d": "{{v}} days",
+    "deg": "{{v}}°",
+    "c": "{{v}} °C"
+  },
+  "horizons": {
+    "button": "Compare with JPL Horizons",
+    "busy": "Contacting JPL Horizons…",
+    "result": "Difference from JPL Horizons: {{km}} km at {{date}}.",
+    "fresh": "Fetched {{date}}",
+    "cached": "Cached result from {{date}}",
+    "offline": "Offline, and no saved result exists for this time.",
+    "network": "JPL Horizons could not be reached and no saved result exists.",
+    "parse": "JPL Horizons returned a reply that could not be read."
+  },
+  "search": {
+    "placeholder": "Search planets and moons",
+    "hint": "Works with Azerbaijani, English and Russian names.",
+    "none": "Nothing found."
+  },
+  "event": {
+    "intro": "Calculated for the 12 months after {{date}}. Times are the moment of peak or exact alignment.",
+    "computing": "Calculating events…",
+    "none": "No events match these filters.",
+    "view": "Go to",
+    "solarEclipse_total": "Total solar eclipse",
+    "solarEclipse_annular": "Annular solar eclipse",
+    "solarEclipse_partial": "Partial solar eclipse",
+    "lunarEclipse_total": "Total lunar eclipse",
+    "lunarEclipse_partial": "Partial lunar eclipse",
+    "lunarEclipse_penumbral": "Penumbral lunar eclipse",
+    "season_marchEquinox": "March equinox",
+    "season_juneSolstice": "June solstice",
+    "season_septemberEquinox": "September equinox",
+    "season_decemberSolstice": "December solstice",
+    "opposition": "{{body}} at opposition",
+    "fullMoon": "Full Moon",
+    "newMoon": "New Moon"
+  },
+  "eventKind": {
+    "solarEclipse": "Solar eclipses",
+    "lunarEclipse": "Lunar eclipses",
+    "season": "Seasons",
+    "opposition": "Oppositions",
+    "fullMoon": "Full Moons",
+    "newMoon": "New Moons"
+  },
+  "library": {
+    "favorites": "Favorites",
+    "bookmarks": "Saved views",
+    "collections": "My collections",
+    "recent": "Recently visited",
+    "noFavorites": "Use the star on an object to add it here.",
+    "noBookmarks": "Use the bookmark button on an object to save the view and date.",
+    "noRecent": "Objects you open will appear here.",
+    "newName": "New collection name",
+    "create": "Create",
+    "addTo": "Add an object…",
+    "nameNeeded": "Enter a collection name first.",
+    "bookmarkSaved": "View saved to Collections."
+  },
+  "help": {
+    "left": "Left mouse drag",
+    "right": "Right mouse drag",
+    "wheel": "Mouse wheel",
+    "click": "Click",
+    "double": "Double click",
+    "space": "Space",
+    "rotate": "Rotate camera",
+    "pan": "Pan",
+    "zoom": "Zoom",
+    "select": "Select object",
+    "focus": "Focus object",
+    "move": "Move camera",
+    "focusKey": "Focus selected object",
+    "esc": "Close panel or go back",
+    "pause": "Pause or resume",
+    "full": "Fullscreen",
+    "search": "Search",
+    "credits": "Data and libraries",
+    "creditsText": "NASA NSSDCA fact sheets; JPL Horizons; ESA Hipparcos catalogue via CDS VizieR; Tycho-2 sky map and Natural Earth II via CesiumJS; Natural Earth vectors; astronomy-engine by Don Cross; three.js; CesiumJS. Asteroid orbits: NASA JPL Small-Body Database."
+  },
+  "quality": {
+    "low": "Low",
+    "medium": "Medium",
+    "high": "High",
+    "ultra": "Ultra"
+  },
+  "perf": {
+    "title": "Performance monitor",
+    "fps": "FPS",
+    "paused3d": "space view paused",
+    "quality": "Quality",
+    "calls": "Draw calls",
+    "triangles": "Triangles",
+    "textures": "Textures (planet)",
+    "memory": "JS memory",
+    "gpu": "GPU"
+  },
+  "settings": {
+    "general": "General",
+    "language": "Language",
+    "education": "Educational mode",
+    "offline": "Offline mode",
+    "offlineNote": "Uses only bundled and saved data",
+    "graphics": "Graphics",
+    "quality": "Graphics quality",
+    "resolution": "Window resolution",
+    "auto": "Keep current",
+    "renderScale": "Render scale",
+    "fps": "FPS limit",
+    "unlimited": "Display rate",
+    "texture": "Texture quality",
+    "post": "Post-processing",
+    "bloom": "Bloom",
+    "bloomOff": "Not used by the Low profile",
+    "aa": "Anti-aliasing",
+    "atmosphere": "Atmospheric scattering",
+    "eclipse": "Eclipse shadows",
+    "eclipseNote": "Shown in true scale",
+    "sound": "Sound",
+    "soundOn": "Interface sounds",
+    "volume": "Volume",
+    "ambient": "Ambient tone",
+    "navigation": "Navigation",
+    "rotateSpeed": "Rotation sensitivity",
+    "zoomSpeed": "Zoom sensitivity",
+    "invertY": "Invert vertical rotation",
+    "interface": "Interface",
+    "uiScale": "Interface scale",
+    "perf": "Performance monitor",
+    "accessibility": "Accessibility",
+    "motion": "Reduce motion",
+    "contrast": "High contrast",
+    "largeText": "Larger text",
+    "storage": "Storage",
+    "cache": "Downloaded data",
+    "cacheNote": "Map tiles and scientific replies",
+    "measuring": "measuring…",
+    "clear": "Clear downloaded data",
+    "cleared": "Downloaded data cleared.",
+    "logs": "Show error log",
+    "version": "COSMOS {{v}} · Electron {{e}}",
+    "skyEffects": "Meteors and twinkling stars",
+    "skyEffectsNote": "Artistic effects. Star positions stay real",
+    "asteroids": "Asteroids and Kuiper belt",
+    "asteroidsNote": "Real orbits from NASA JPL, drawn as points",
+    "autoRes": "Automatic resolution",
+    "autoResNote": "Lowers internal resolution when FPS drops"
+  },
+  "welcome": {
+    "text": "Explore the Solar System using real positions, rotation and scientific data.",
+    "note": "You can change the language at any time in Settings.",
+    "start": "Start exploring"
+  },
+  "earth": {
+    "loading": "Loading the globe…",
+    "hover": "Move the pointer over Earth to read coordinates.",
+    "noPoint": "Pointer is not over Earth.",
+    "n": "N",
+    "s": "S",
+    "e": "E",
+    "w": "W",
+    "height": "elevation {{m}} m",
+    "search": "Search for a place",
+    "searching": "Searching…",
+    "search_offline": "Place search needs a connection, and this search is not saved.",
+    "search_network": "The place search service could not be reached.",
+    "layer": "Map layer",
+    "layer_natural": "Natural Earth (offline)",
+    "layer_bluemarble": "NASA Blue Marble",
+    "layer_osm": "OpenStreetMap",
+    "cachedOnly": "No connection: only map areas viewed before will appear.",
+    "terrain": "3D terrain",
+    "lighting": "Real day and night",
+    "borders": "Country borders",
+    "cities": "Major cities",
+    "reset": "Return to global view",
+    "limits": "3D buildings need a separate licensed data service and are not included yet. Border and city data is simplified.",
+    "boundaries": "Borders and cities: Natural Earth (public domain). Boundaries are shown for reference only."
+  },
+  "date": {
+    "months": [
+      "January",
+      "February",
+      "March",
+      "April",
+      "May",
+      "June",
+      "July",
+      "August",
+      "September",
+      "October",
+      "November",
+      "December"
+    ]
+  },
+  "hint": {
+    "selectFirst": "Select an object first."
+  },
+  "error": {
+    "webgl": "The graphics context was lost. Restart COSMOS if the view stays blank.",
+    "texture": "A surface image could not be loaded. A plain colour is shown instead.",
+    "layer": "This map layer could not be loaded.",
+    "events": "Events could not be calculated.",
+    "earth": "The Earth globe could not be started. Details are in the error log."
+  },
+  "hand": {
+    "mode": "Control mode",
+    "m": {
+      "mouse": "Mouse",
+      "hand": "Hand",
+      "hybrid": "Hybrid",
+      "mouseNote": "Mouse and keyboard only. The camera is off.",
+      "handNote": "Gestures control navigation, selection and the hand menu. Mouse and keyboard still work.",
+      "hybridNote": "The webcam moves and zooms the camera. The mouse selects objects."
+    },
+    "active": "Camera active",
+    "off": "Turn camera off",
+    "on": "Turn camera on",
+    "stopped": "Camera turned off.",
+    "camera": "Camera",
+    "cameraN": "Camera {{n}}",
+    "noPreview": "The camera is off. No video is being read.",
+    "previewNote": "The preview is mirrored. It is only shown here and never recorded.",
+    "privacy": "Hand tracking runs entirely on this computer. Video is not saved or sent anywhere. Turn it off at any time with the red button or Ctrl+Shift+C.",
+    "action": "Action",
+    "ms": "{{v}} ms",
+    "perSec": "{{v}} per second",
+    "gestures": "Gestures",
+    "gesturesNote": "Switch any gesture off or change what it does.",
+    "sensitivity": "Sensitivity and detection",
+    "stat": {
+      "state": "Tracking status",
+      "hands": "Hands detected",
+      "pose": "Current hand shape",
+      "rate": "Analysed frames",
+      "infer": "Analysis time",
+      "processor": "Processor"
+    },
+    "state": {
+      "off": "Camera off",
+      "starting": "Starting…",
+      "searching": "Looking for a hand",
+      "tracking": "Tracking",
+      "lost": "Hand lost, holding position"
+    },
+    "pose": {
+      "none": "None",
+      "open": "Open palm",
+      "fist": "Fist",
+      "point": "Pointing",
+      "victory": "Two fingers",
+      "pinch": "Pinch"
+    },
+    "proc": {
+      "GPU": "Graphics card",
+      "CPU": "Main processor"
+    },
+    "set": {
+      "handMove": "Movement sensitivity",
+      "handMoveNote": "How far the camera moves with your hand",
+      "handZoom": "Zoom sensitivity",
+      "handZoomNote": "How quickly pinches zoom",
+      "handSmooth": "Smoothing",
+      "handSmoothNote": "Higher is steadier, lower is quicker",
+      "handConfirm": "Confirmation time",
+      "handConfirmNote": "How long a gesture must hold before it counts",
+      "handDetect": "Detection threshold",
+      "handDetectNote": "Raise it if the app sees hands that are not there",
+      "handTrack": "Tracking threshold",
+      "handTrackNote": "Lower it if tracking drops in poor light"
+    },
+    "a": {
+      "rotate": "Rotate camera",
+      "pan": "Move camera sideways",
+      "zoom": "Zoom",
+      "select": "Select",
+      "freeze": "Stop camera movement",
+      "pauseTime": "Pause or resume time",
+      "highlight": "Highlight",
+      "menu": "Open hand menu",
+      "home": "Go to home view"
+    },
+    "g": {
+      "openPalm": {
+        "name": "Open palm",
+        "how": "Open your hand and move it to turn the camera."
+      },
+      "handMove": {
+        "name": "Hand movement",
+        "how": "Raise two fingers and move your hand to shift the view horizontally and vertically."
+      },
+      "pinchZoom": {
+        "name": "Pinch zoom",
+        "how": "Hold a pinch for a moment, then open or close thumb and index finger to zoom."
+      },
+      "pinchSelect": {
+        "name": "Pinch and release",
+        "how": "Point at something, then pinch briefly and release to select it."
+      },
+      "fist": {
+        "name": "Fist",
+        "how": "Close your hand to stop camera movement."
+      },
+      "twoHandPinch": {
+        "name": "Two-hand pinch",
+        "how": "Pinch with both hands and move them apart or together to zoom."
+      },
+      "point": {
+        "name": "Pointing",
+        "how": "Point with your index finger to highlight an object."
+      },
+      "palmHold": {
+        "name": "Open palm held",
+        "how": "Keep an open palm still for over a second to show the interface."
+      },
+      "dwellSelect": {
+        "name": "Point and hold",
+        "how": "Keep pointing at an object until the ring around the cursor fills to select it."
+      }
+    },
+    "cal": {
+      "title": "Calibration",
+      "none": "Not calibrated. Default values are in use.",
+      "saved": "Your calibration is in use.",
+      "start": "Start calibration",
+      "reset": "Use default values",
+      "cancel": "Cancel",
+      "step": "Step {{n}} of 4: {{text}}",
+      "palm": "Show an open palm to the camera.",
+      "sweep": "Move your open hand left and right.",
+      "pinch": "Pinch your thumb and index finger together and hold.",
+      "still": "Hold your hand still.",
+      "done": "Calibration saved.",
+      "prompt": "Calibrate in the hand panel for the best results."
+    },
+    "consent": {
+      "text": "COSMOS needs your permission to use the webcam for hand tracking.",
+      "a": "Video is analysed only on this computer.",
+      "b": "Video is never saved or sent anywhere.",
+      "c": "You will be asked again each time COSMOS starts.",
+      "allow": "Allow camera",
+      "cancel": "Not now"
+    },
+    "fail": {
+      "denied": "Camera access is blocked. Allow desktop apps to use the camera in Windows privacy settings.",
+      "missing": "No camera was found.",
+      "busy": "The camera is unavailable or in use by another app.",
+      "model": "Hand tracking could not start. Details are in the error log.",
+      "unknown": "The camera could not be started."
+    },
+    "menu": {
+      "title": "Hand menu",
+      "hint": "Hold your open palm still on a button, or pinch and release.",
+      "prev": "Previous object",
+      "next": "Next object",
+      "panel": "Hand settings"
+    },
+    "short": {
+      "openPalm": "Rotate",
+      "handMove": "Move",
+      "pinchZoom": "Zoom",
+      "pinchSelect": "Select",
+      "dwellSelect": "Hold to select",
+      "fist": "Stop",
+      "twoHandPinch": "Two-hand zoom",
+      "point": "Point",
+      "palmHold": "Menu"
+    }
+  },
+  "effects": {
+    "note": "Meteors and twinkling are artistic effects."
+  },
+  "boot": {
+    "credit": "Created by the ghsotpact team.",
+    "start": "Starting…",
+    "stars": "Loading star catalogue…",
+    "asteroids": "Loading asteroid orbits…",
+    "textures": "Preparing Earth map…",
+    "shaders": "Preparing graphics…",
+    "ready": "Ready"
+  },
+  "deep": {
+    "loading": "Preparing the galaxy…",
+    "back": "Solar System",
+    "note": "Positions are real; galaxy images are an artistic model",
+    "sunHere": "The Sun is here",
+    "distance": "Distance",
+    "measurements": "Distance measurements",
+    "mly": "{{v}} million light-years",
+    "kly": "{{v}} thousand light-years",
+    "dataNote": "Position and distance are catalogue data.",
+    "visualNote": "Shape, colour and rotation are an artistic model.",
+    "kind": {
+      "spiral": "Spiral galaxy",
+      "elliptical": "Elliptical galaxy",
+      "irregular": "Irregular galaxy",
+      "lenticular": "Lenticular or Sa galaxy",
+      "blackhole": "Supermassive black hole"
+    }
+  },
+  "rover": {
+    "loading": "Preparing Martian terrain…",
+    "welcome": "Drive with W/S, steer with A/D. Reach a beacon and press E.",
+    "failed": "Mars mode could not start.",
+    "tooFar": "Move closer to a survey point.",
+    "title": "Mars rover",
+    "exit": "Exit",
+    "map": "Map",
+    "speed": "Speed",
+    "driven": "Distance driven",
+    "found": "Surveyed",
+    "next": "Next point",
+    "position": "Approximate position",
+    "scan": "Analyse rock (E)",
+    "keys": "W/S or arrows: drive · A/D: steer · mouse: camera · Esc: exit",
+    "hand": "Move an open palm from the centre to drive and steer. A fist stops.",
+    "note": "Colour and large-scale relief are real Jezero data with compressed distances. The rover, rocks and fine detail are illustrative.",
+    "ms": "{{v}} m/s",
+    "m": "{{v}} m",
+    "allFound": "All found",
+    "gDrive": "Drive",
+    "gStop": "Stop",
+    "gScan": "Analyse",
+    "facts": [
+      "Basalt: a dark volcanic rock common on Mars.",
+      "Iron oxide: the main reason Mars looks red.",
+      "Carbonates: minerals that can form with the help of water.",
+      "Clay minerals: a sign that water once altered the rock.",
+      "Jezero crater: known for traces of an ancient lake and river delta."
+    ]
+  }
+}

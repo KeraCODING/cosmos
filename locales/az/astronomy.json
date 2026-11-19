@@ -1,0 +1,445 @@
+{
+  "bodies": {
+    "sun": {
+      "name": "Günəş",
+      "type": "G tipli baş ardıcıllıq ulduzu",
+      "simple": "Günəş Günəş sisteminin mərkəzindəki ulduzdur. Onun işığı və istiliyi Yerdə həyatı mümkün edir.",
+      "detailed": "Günəş nüvəsində hidrogenin termonüvə sintezi ilə enerji hasil edən qızmar plazma kürəsidir. Enerji xaricə əvvəlcə şüalanma, sonra konveksiya yolu ilə daşınır və fotosferdən kosmosa yayılır. Maqnit sahəsi Günəş ləkələrini, alışmaları və heliosferi dolduran Günəş küləyini yaradır.",
+      "facts": [
+        "Günəş sistemi kütləsinin təxminən 99,8%-i Günəşin payına düşür.",
+        "Günəş işığı Yerə təxminən 8 dəqiqə 20 saniyəyə çatır.",
+        "Günəş aktivliyi təxminən 11 illik dövrlə artıb azalır."
+      ],
+      "history": "Kopernik 1543-cü ildə mərkəzində Günəş olan modeli nəşr etdirdi. XX əsrdə nüvə fizikası Günəşin enerji mənbəyini izah etdi, Hans Bete isə 1939-cu ildə sintez prosesini təsvir etdi.",
+      "significance": "Günəş ən yaxın ulduz olduğu üçün digər ulduzların quruluşunu və təkamülünü anlamaqda əsas meyardır."
+    },
+    "mercury": {
+      "name": "Merkuri",
+      "type": "Yerəbənzər planet",
+      "simple": "Merkuri ən kiçik və Günəşə ən yaxın planetdir. Demək olar ki, havası olmadığından gündüzləri çox isti, gecələri isə çox soyuq keçir.",
+      "detailed": "Merkurinin çox böyük metal nüvəsi və səthə bağlı nazik ekzosferi var. O, hər iki dövrə ərzində öz oxu ətrafında düz üç dəfə fırlanır; bu, 3:2 spin-orbit rezonansıdır. Radar və kosmik aparat məlumatları qütblərdə daim kölgədə qalan kraterlərdə su buzu olduğunu göstərir.",
+      "facts": [
+        "Merkuridə bir Günəş sutkası təxminən iki Merkuri ilinə bərabərdir.",
+        "Səkkiz planet arasında ən böyük eksentrisitetli orbit ona məxsusdur.",
+        "Orbitinin yavaş presessiyası ümumi nisbilik nəzəriyyəsinin təsdiqinə kömək etmişdir."
+      ],
+      "history": "Merkuri qədim dövrlərdən məlumdur. Mariner 10 1974–1975-ci illərdə ilk yaxın uçuşları etdi, MESSENGER isə 2011–2015-ci illərdə onun orbitində işlədi.",
+      "significance": "Sıx daxili quruluşu və orbiti planetlərin yaranması və ulduz yaxınlığında cazibə haqqında fikirləri yoxlamağa imkan verir."
+    },
+    "venus": {
+      "name": "Venera",
+      "type": "Yerəbənzər planet",
+      "simple": "Venera ölçüsünə görə Yerə yaxındır, lakin qalın buludlarla örtülüdür və ən isti planetdir.",
+      "detailed": "Sıx karbon qazı atmosferi və sulfat turşusu buludları güclü istixana effekti yaradır. Venera retroqrad istiqamətdə yavaş fırlanır, yuxarı atmosferi isə səthdən qat-qat sürətlə dövr edir. Radar xəritələri buludların altında vulkanik düzənlikləri və yüksəklikləri üzə çıxarmışdır.",
+      "facts": [
+        "Venera əksər planetlərin əksinə istiqamətdə fırlanır.",
+        "Səthi qurğuşunu əridəcək qədər istidir.",
+        "Siderik sutkası ilindən uzundur."
+      ],
+      "history": "Qalileo 1610-cu ildə Veneranın fazalarını müşahidə edərək heliosentrik modeli dəstəklədi. Mariner 2 1962-ci ildə yanından keçdi, sovet Venera aparatları səthə endi, Magellan isə 1990-cı illərdə onu radarla xəritələdi.",
+      "significance": "Venera ölçüsü Yerə yaxın bir dünyanın tamamilə fərqli iqlimə necə gələ biləcəyini göstərir."
+    },
+    "earth": {
+      "name": "Yer",
+      "type": "Yerəbənzər planet",
+      "simple": "Yer bizim evimizdir və həyatın mövcudluğu məlum olan yeganə dünyadır. Səthinin böyük hissəsini okeanlar örtür.",
+      "detailed": "Yerin azot və oksigendən ibarət atmosferi, səthində maye suyu, aktiv litosfer plitələri və xarici nüvədə yaranan maqnit sahəsi var. Fırlanma oxunun meyli fəsilləri yaradır. Bu sistemlər karbon və su dövranları vasitəsilə iqlimi formalaşdırır.",
+      "facts": [
+        "Yer səthinin təxminən 71%-i su ilə örtülüdür.",
+        "Günəş sisteminin ən sıx planetidir.",
+        "Fəsilləri Günəşdən məsafə deyil, oxun meyli yaradır."
+      ],
+      "history": "Eratosfen e.ə. III əsrdə Yerin çevrəsini hesabladı. 1957-ci ildən peyklər və Apollon fotoşəkilləri planeti vahid sistem kimi göstərdi.",
+      "significance": "Yer digər dünyalarda yaşayış imkanlarını öyrənmək üçün əsas müqayisə nöqtəsidir."
+    },
+    "moon": {
+      "name": "Ay",
+      "type": "Yerin təbii peyki",
+      "simple": "Ay Yerin yeganə təbii peykidir. O, bir dövrədə bir dəfə fırlandığı üçün biz həmişə təxminən eyni üzünü görürük.",
+      "detailed": "Ay Yerə qabarma kilidi ilə bağlıdır və çox güman ki, Günəş sisteminin erkən dövründə nəhəng toqquşmadan sonra yaranmışdır. Tünd bazalt düzənlikləri və kraterli açıq rəngli yüksəkliklər onun keçmişini qoruyur. Ayın cazibəsi Yerdəki okean qabarmalarının əsas səbəbidir.",
+      "facts": [
+        "1969–1972-ci illərdə on iki insan Ayın səthində gəzmişdir.",
+        "Ay hər il Yerdən təxminən 3,8 sm uzaqlaşır.",
+        "Tutulmalar Günəş, Yer və Ay təxminən bir xətt üzrə düzüləndə baş verir."
+      ],
+      "history": "Qalileo 1610-cu ildə Ayın dağlarını və kraterlərini təsvir etdi. Luna 2 1959-cu ildə səthə çatdı, Apollon 11 isə 1969-cu ildə ilk insanları Aya endirdi.",
+      "significance": "Qədim səthi Yerdə böyük ölçüdə silinmiş erkən Günəş sistemi tarixini qoruyur."
+    },
+    "mars": {
+      "name": "Mars",
+      "type": "Yerəbənzər planet",
+      "simple": "Mars soyuq səhra dünyasıdır; qırmızı rəngi dəmir oksidi tozundan yaranır. Qədim çaylar və göllər səthində izlər qoymuşdur.",
+      "detailed": "Marsın nazik karbon qazı atmosferi, qütb buz örtükləri və ritmi Yerə bənzər fəsilləri var. Vadilər, deltalar və suda əmələ gələn minerallar erkən iqliminin fərqli olduğunu göstərir. Olimp dağı və Marineris vadiləri Günəş sisteminin ən böyük səth quruluşları sırasındadır.",
+      "facts": [
+        "Olimp dağı məlum ən hündür planet vulkanıdır.",
+        "Marsda Günəş sutkası təxminən 24 saat 40 dəqiqədir.",
+        "Marsın iki kiçik peyki var: Fobos və Deymos."
+      ],
+      "history": "Asaf Holl 1877-ci ildə peykləri kəşf etdi. Mariner 4 1965-ci ildə ilk yaxın görüntüləri göndərdi, Viking 1976-cı ildə endi, sonra isə marsoxodlar işə başladı.",
+      "significance": "Mars keçmiş həyat izlərinin axtarışı və insanlı tədqiqata hazırlıq üçün əsas hədəflərdəndir."
+    },
+    "jupiter": {
+      "name": "Yupiter",
+      "type": "Qaz nəhəngi",
+      "simple": "Yupiter ən böyük planetdir. O, rəngli bulud zolaqları və nəhəng qasırğaları olan qaz kürəsidir.",
+      "detailed": "Yupiter əsasən hidrogen və heliumdan ibarətdir; dərinlikdə təzyiq hidrogeni elektrik keçirən mayeyə çevirir. Bu, Günəş sistemində planetlərə məxsus ən güclü maqnit sahəsini yaradır. Sürətli fırlanma atmosferi zolaqlara və axınlara ayırır.",
+      "facts": [
+        "Səkkiz planet arasında ən qısa sutka Yupiterdədir.",
+        "Böyük Qırmızı Ləkə uzunömürlü nəhəng qasırğadır.",
+        "Peyki Avropanın buz altında okean saxladığı güman edilir."
+      ],
+      "history": "Qalileo 1610-cu ildə onun dörd ən böyük peykini kəşf etdi. Sonralar Pioneer, Voyager, Galileo və Juno sistemi yaxından öyrəndi.",
+      "significance": "Onun cazibəsi digər planetlərin və kiçik cisimlərin düzülüşünə güclü təsir etmişdir."
+    },
+    "saturn": {
+      "name": "Saturn",
+      "type": "Qaz nəhəngi",
+      "simple": "Saturn saysız buz və qaya parçalarından ibarət parlaq halqaları ilə məşhur planetdir.",
+      "detailed": "Saturn orta sıxlığı sudan az olan hidrogen-helium nəhəngidir. Halqaları çox geniş, lakin son dərəcə nazikdir; peyklər onların boşluqlarını və kənarlarını formalaşdırır. Peyki Titanın qalın atmosferi və maye karbohidrogen gölləri var.",
+      "facts": [
+        "Saturn ən az sıxlığa malik planetdir.",
+        "Kassini aralığı halqalardakı geniş boşluqdur.",
+        "Enselad kosmosa su ilə zəngin axınlar püskürür."
+      ],
+      "history": "Qalileo 1610-cu ildə onun qəribə formasını gördü, Kristian Hüygens isə 1659-cu ildə halqanı izah etdi. Cassini aparatı 2004–2017-ci illərdə Saturnun orbitində işlədi.",
+      "significance": "Halqalar planet yaradan disklərdə də baş verən prosesləri öyrənmək üçün təbii laboratoriyadır."
+    },
+    "uranus": {
+      "name": "Uran",
+      "type": "Buz nəhəngi",
+      "simple": "Uran yan üstə fırlanan mavi-yaşıl buz nəhəngidir.",
+      "detailed": "Uranın hidrogen, helium və metan atmosferinin altında su, ammonyak və metanla zəngin dərin daxili qat yerləşir. Oxunun həddindən artıq meyli çox uzun fəsillər yaradır. Zəif halqaları və mərkəzdən sürüşmüş maqnit sahəsi onu fərqləndirir.",
+      "facts": [
+        "Teleskopla kəşf edilən ilk planetdir.",
+        "BAİ şimal qütbü qaydasına görə fırlanması retroqraddır.",
+        "Atmosferindəki metan qırmızı işığı udur."
+      ],
+      "history": "Uilyam Herşel Uranı 1781-ci ildə kəşf etdi. Ona yaxınlaşan yeganə aparat 1986-cı ildə Voyager 2 olmuşdur.",
+      "significance": "Buz nəhəngləri digər ulduzların ətrafında geniş yayıldığından Uran ekzoplanetlərin mühüm sinfini anlamağa kömək edir."
+    },
+    "neptune": {
+      "name": "Neptun",
+      "type": "Buz nəhəngi",
+      "simple": "Neptun Günəşdən ən uzaq planetdir; çox sürətli küləkləri olan tünd mavi dünyadır.",
+      "detailed": "Neptun aktiv atmosferi və daxili istilik mənbəyi olan buz nəhəngidir. Ən böyük peyki Triton retroqrad istiqamətdə dolanır və çox güman ki, sonradan tutulmuş cisimdir. Buludlarında tünd qasırğalar yaranıb yox olur.",
+      "facts": [
+        "Neptun riyazi proqnoz əsasında tapılmışdır.",
+        "Küləkləri Günəş sistemində ən sürətlilər sırasındadır.",
+        "Bir dövrəsi təxminən 165 Yer ili çəkir."
+      ],
+      "history": "Urben Leverye onun yerini hesabladı, İohann Qalle isə 1846-cı ildə planeti müşahidə etdi. Voyager 2 1989-cu ildə yanından keçdi.",
+      "significance": "Kəşfi Nyuton cazibə nəzəriyyəsinin proqnoz gücünü nümayiş etdirdi."
+    },
+    "phobos": {
+      "name": "Fobos",
+      "type": "Marsın peyki",
+      "simple": "Fobos Marsın iki kiçik peykindən böyüyüdür, forması kürədən çox kartofa bənzəyir.",
+      "detailed": "Fobos Marsa elə yaxındır ki, planetin öz oxu ətrafında fırlanmasından daha tez dövr edir. Qabarma qüvvələri orbitini yavaş-yavaş aşağı salır.",
+      "facts": [
+        "Marsdan baxanda qərbdən doğub şərqdə batır.",
+        "Ən böyük krateri Stickney adlanır.",
+        "Bir dövrəni 8 saatdan az müddətdə tamamlayır."
+      ],
+      "history": "Asaf Holl Fobosu 1877-ci ildə ABŞ Dəniz Rəsədxanasında kəşf etdi.",
+      "significance": "Mənşəyi Marsın erkən dövrü haqqında fikirləri yoxlamağa kömək edir."
+    },
+    "deimos": {
+      "name": "Deymos",
+      "type": "Marsın peyki",
+      "simple": "Deymos Marsın daha kiçik və daha uzaq peykidir.",
+      "detailed": "Deymos boş süxur və tozla örtülü, hamar görünüşlü kiçik və qeyri-düzgün cisimdir. Marsın ətrafında təxminən 30 saata dolanır.",
+      "facts": [
+        "Məlum ən kiçik peyklərdən biridir.",
+        "Səthi Fobosdan daha hamar görünür.",
+        "Marsdan parlaq ulduz kimi görünərdi."
+      ],
+      "history": "Asaf Holl Deymosu 1877-ci ildə, Fobosdan bir neçə gün əvvəl kəşf etdi.",
+      "significance": "Fobosla birlikdə Marsın peyklərinin mənşəyini anlamaq üçün əsas hədəfdir."
+    },
+    "io": {
+      "name": "İo",
+      "type": "Yupiterin peyki",
+      "simple": "İo Günəş sistemində vulkanik baxımdan ən aktiv dünyadır.",
+      "detailed": "Yupiterin qabarma təsiri və Avropa ilə Qanimedlə orbital rezonans İonun daxilini qızdırır. Kükürd birləşmələri səthinə rəng verir.",
+      "facts": [
+        "Yüzlərlə vulkan aktivdir və ya yaxın keçmişdə aktiv olub.",
+        "İo, Avropa və Qanimed 4:2:1 rezonansındadır.",
+        "Püskürmələri Yupiter ətrafında yüklü hissəcik halqası yaradır."
+      ],
+      "history": "Qalileo Qaliley İonu 1610-cu ilin yanvarında kəşf etdi. Voyager 1 1979-cu ildə vulkanlarını tapdı.",
+      "significance": "İo qabarma enerjisinin Günəşdən uzaqda geologiyanı necə işlətdiyini göstərir."
+    },
+    "europa": {
+      "name": "Avropa",
+      "type": "Yupiterin peyki",
+      "simple": "Avropa buz qabığının altında duzlu qlobal okean olduğu güman edilən peykdir.",
+      "detailed": "Gənc səthini uzun tünd çatlar kəsir. Maqnit ölçmələri buzun altında elektrik keçirən okeanı dəstəkləyir.",
+      "facts": [
+        "Çox az böyük krateri var.",
+        "Tünd xətləri lineae adlanır.",
+        "NASA-nın Europa Clipper aparatı 2024-cü ildə ona doğru göndərildi."
+      ],
+      "history": "Qalileo Qaliley Avropanı 1610-cu ilin yanvarında kəşf etdi.",
+      "significance": "Okeanı onu həyat üçün uyğun şərait axtarışında ən yaxşı yerlərdən edir."
+    },
+    "ganymede": {
+      "name": "Qanimed",
+      "type": "Yupiterin peyki",
+      "simple": "Qanimed Günəş sisteminin ən böyük peykidir, Merkuri planetindən də böyükdür.",
+      "detailed": "Öz maqnit sahəsini yaratdığı məlum olan yeganə peykdir. Səthini qədim tünd və daha açıq şırımlı ərazilər örtür.",
+      "facts": [
+        "Diametri Merkuridən böyükdür.",
+        "Öz maqnitosferi var.",
+        "ESA-nın JUICE aparatı onun orbitinə doğru yoldadır."
+      ],
+      "history": "Qalileo Qaliley Qanimedi 1610-cu ilin yanvarında kəşf etdi.",
+      "significance": "Buzlu dünyalarda maqnetizmi və gizli okeanları öyrənmək üçün təbii laboratoriyadır."
+    },
+    "callisto": {
+      "name": "Kallisto",
+      "type": "Yupiterin peyki",
+      "simple": "Kallisto buz və süxurdan ibarət, kraterlərlə dolu qədim peykdir.",
+      "detailed": "Kallisto Yupiterin ən güclü radiasiyasından kənardadır və daxili aktivlik izi az göstərir. Səthi uzun zərbə tarixini qoruyur.",
+      "facts": [
+        "Valhalla nəhəng çoxhalqalı zərbə hövzəsidir.",
+        "Qaliley peyklərinin ən uzağıdır.",
+        "Dərinliyində okean ola bilər."
+      ],
+      "history": "Qalileo Qaliley Kallistonu 1610-cu ilin yanvarında kəşf etdi.",
+      "significance": "Qədim səthi xarici Günəş sistemindəki zərbələrin tarixini saxlayır."
+    },
+    "mimas": {
+      "name": "Mimas",
+      "type": "Saturnun peyki",
+      "simple": "Mimas bir nəhəng krateri olan kiçik buzlu peykdir.",
+      "detailed": "Mimas əsasən su buzundan ibarətdir. Cazibəsi orbital rezonans vasitəsilə Saturnun halqalarını formalaşdırmağa kömək edir.",
+      "facts": [
+        "Herşel krateri onun enini təxminən üçdə bir tutur.",
+        "Mimasla rezonans Kassini aralığının saxlanmasına kömək edir.",
+        "Saturnun ətrafında bir gündən az müddətdə dolanır."
+      ],
+      "history": "Uilyam Herşel Mimas peykini 1789-cu ildə kəşf etdi.",
+      "significance": "Peyklərin halqa sistemlərini necə formalaşdırdığını göstərir."
+    },
+    "enceladus": {
+      "name": "Enselad",
+      "type": "Saturnun peyki",
+      "simple": "Enselad kosmosa su püskürən parlaq buzlu peykdir.",
+      "detailed": "Cənub qütbü yaxınlığındakı çatlardan çıxan axınlar yeraltı okeandan gəlir və Saturnun E halqasını qidalandırır.",
+      "facts": [
+        "Günəş sistemində işığı ən çox əks etdirən cisimlərdəndir.",
+        "Cənub qütbündəki çatlara pələng zolaqları deyilir.",
+        "Cassini onun axınlarının içindən keçib."
+      ],
+      "history": "Uilyam Herşel Enseladı 1789-cu ildə kəşf etdi. Cassini 2005-ci ildə axınlarını üzə çıxardı.",
+      "significance": "Axınlar okeandan kosmosda nümunə götürməyə imkan verir."
+    },
+    "tethys": {
+      "name": "Tefiya",
+      "type": "Saturnun peyki",
+      "simple": "Tefiya nəhəng krateri və uzun kanyonu olan buzlu peykdir.",
+      "detailed": "Aşağı sıxlığı onun əsasən su buzundan ibarət olduğunu göstərir. Orbitini iki kiçik peyk bölüşür.",
+      "facts": [
+        "Odissey onun nəhəng zərbə krateridir.",
+        "İthaka kanyonu səthin böyük hissəsi boyunca uzanır.",
+        "Telesto və Kalipso onunla eyni orbitdədir."
+      ],
+      "history": "Covanni Domeniko Kassini Tefiyanı 1684-cü ildə kəşf etdi.",
+      "significance": "Buzlu peyklərin nəhəng zərbələrə reaksiyasını göstərir."
+    },
+    "dione": {
+      "name": "Diona",
+      "type": "Saturnun peyki",
+      "simple": "Diona parlaq çatlı qayalıqlarla kəsilmiş buzlu peykdir.",
+      "detailed": "Diona buz və süxurdan ibarətdir, səthində kraterli düzənliklər və uzun tektonik çatlar var.",
+      "facts": [
+        "Nazik zolaqları buz qayalıqlarıdır.",
+        "Helena və Polidevk onunla eyni orbitdədir.",
+        "Enseladla rezonansdadır."
+      ],
+      "history": "Covanni Domeniko Kassini Dionanı 1684-cü ildə kəşf etdi.",
+      "significance": "Çatları buz qabığında keçmiş tektonik aktivliyi qoruyur."
+    },
+    "rhea": {
+      "name": "Reya",
+      "type": "Saturnun peyki",
+      "simple": "Reya Saturnun ikinci ən böyük peykidir, buz və süxurdan ibarət soyuq dünyadır.",
+      "detailed": "Reyanın qədim kraterli səthi və parlaq çatları var. Daxili quruluşu daha böyük peyklərə nisbətən bircinslidir.",
+      "facts": [
+        "Saturnun peykləri arasında yalnız Titan ondan böyükdür.",
+        "Böyük hissəsi su buzudur.",
+        "Səthi kraterlərlə doludur."
+      ],
+      "history": "Covanni Domeniko Kassini Reyanı 1672-ci ildə kəşf etdi.",
+      "significance": "Orta ölçülü buzlu peyklər üçün yaxşı nümunədir."
+    },
+    "titan": {
+      "name": "Titan",
+      "type": "Saturnun peyki",
+      "simple": "Titan qalın narıncı atmosferi olan ən böyük Saturn peykidir.",
+      "detailed": "Titanın sıx azot atmosferi, səthində isə buludlar, yağış, çaylar və göllər yaradan metan dövranı var.",
+      "facts": [
+        "Sıx atmosferi olan yeganə peykdir.",
+        "Göllərini maye metan və etan doldurur.",
+        "ESA-nın Huygens zondu 2005-ci ildə ora endi."
+      ],
+      "history": "Kristian Hüygens Titanı 1655-ci ildə kəşf etdi.",
+      "significance": "Kimyası həyatdan əvvəlki proseslər haqqında ipucu verir."
+    },
+    "iapetus": {
+      "name": "Yapet",
+      "type": "Saturnun peyki",
+      "simple": "Yapet bir tərəfi tünd, digər tərəfi parlaq olan iki rəngli peykdir.",
+      "detailed": "Qabaq yarımkürəsini tünd maddə örtür, ekvatorunun böyük hissəsi boyunca isə hündür silsilə uzanır.",
+      "facts": [
+        "Yarımkürələrinin parlaqlığı kəskin fərqlənir.",
+        "Diqqətçəkən ekvator silsiləsi var.",
+        "Saturndan çox uzaqda dolanır."
+      ],
+      "history": "Covanni Domeniko Kassini Yapeti 1671-ci ildə kəşf etdi və parlaqlığının dəyişdiyini gördü.",
+      "significance": "Toz və buzun hərəkətinin səthi necə dəyişdiyini göstərir."
+    },
+    "miranda": {
+      "name": "Miranda",
+      "type": "Uranın peyki",
+      "simple": "Miranda məlum ən qəribə səthlərdən birinə malik kiçik peykdir.",
+      "detailed": "Miranda qədim kraterli əraziləri korona adlanan gənc, şırımlı sahələrlə birləşdirir.",
+      "facts": [
+        "Verona qayalığı nəhəng yarğandır.",
+        "Uranın beş böyük peykinin ən kiçiyidir.",
+        "Voyager 2 onu 1986-cı ildə çəkib."
+      ],
+      "history": "Cerard Koyper Mirandanı 1948-ci ildə kəşf etdi.",
+      "significance": "Səthi çox kiçik cisimdə keçmişdə güclü qızma olduğunu göstərir."
+    },
+    "ariel": {
+      "name": "Ariel",
+      "type": "Uranın peyki",
+      "simple": "Ariel dərin vadiləri və nisbətən gənc səthi olan parlaq peykdir.",
+      "detailed": "Arielin qırılma vadiləri və hamar düzənlikləri keçmiş geoloji aktivliyə işarə edir.",
+      "facts": [
+        "Uranın ən parlaq peyklərindəndir.",
+        "Səthini uzun kanyonlar kəsir.",
+        "Ona yalnız Voyager 2 yaxınlaşıb."
+      ],
+      "history": "Uilyam Lassel Arieli 1851-ci ildə kəşf etdi.",
+      "significance": "Buz nəhənglərinin peyklərinin təkamülünü anlamağa kömək edir."
+    },
+    "umbriel": {
+      "name": "Umbriel",
+      "type": "Uranın peyki",
+      "simple": "Umbriel Uranın böyük peyklərinin ən tündüdür.",
+      "detailed": "Qədim kraterli səthi qeyri-adi dərəcədə tünddür və yaxın dəyişiklik izi az göstərir.",
+      "facts": [
+        "Vunda parlaq halqavari quruluşdur.",
+        "Günəş işığını az əks etdirir.",
+        "Səthi çox qədim görünür."
+      ],
+      "history": "Uilyam Lassel Umbrieli 1851-ci ildə kəşf etdi.",
+      "significance": "Daha aktiv qonşu peyklərlə müqayisə imkanı verir."
+    },
+    "titania": {
+      "name": "Titaniya",
+      "type": "Uranın peyki",
+      "simple": "Titaniya Uranın ən böyük peykidir.",
+      "detailed": "Titaniyanın kraterləri və böyük qırılma kanyonları qabığının nə vaxtsa genişləndiyini göstərir.",
+      "facts": [
+        "Uranın ən böyük peykidir.",
+        "Messina kanyonları böyük sistemdir.",
+        "Onu yaxından yalnız Voyager 2 görüb."
+      ],
+      "history": "Uilyam Herşel Titaniyanı 1787-ci ildə kəşf etdi.",
+      "significance": "Orta ölçülü buzlu peyklərdə suyun izlərini anlamağa kömək edə bilər."
+    },
+    "oberon": {
+      "name": "Oberon",
+      "type": "Uranın peyki",
+      "simple": "Oberon Uranın ən uzaq böyük peykidir.",
+      "detailed": "Oberonun qədim, sıx kraterli səthi var, bəzi kraterlərin dibində tünd maddə görünür.",
+      "facts": [
+        "Uranın ikinci ən böyük peykidir.",
+        "Digər böyük peyklərdən kənarda dolanır.",
+        "Voyager 2 onun yalnız bir hissəsini görüb."
+      ],
+      "history": "Uilyam Herşel Oberonu 1787-ci ildə kəşf etdi.",
+      "significance": "Kraterləri Uran ətrafındakı zərbələrin tarixini saxlayır."
+    },
+    "triton": {
+      "name": "Triton",
+      "type": "Neptunun peyki",
+      "simple": "Triton Neptunun ən böyük peykidir və planetin fırlanmasının əksinə dolanır.",
+      "detailed": "Retroqrad orbiti onun Koyper qurşağından tutulduğunu göstərir. Voyager 2 axınlar və gənc buzlu səth görüb.",
+      "facts": [
+        "Günəş sistemində məlum ən soyuq səthlərdəndir.",
+        "Orbiti retroqraddır.",
+        "Nazik azot atmosferi var."
+      ],
+      "history": "Uilyam Lassel Tritonu 1846-cı ildə, Neptundan az sonra kəşf etdi.",
+      "significance": "Plutonun tutulmuş qohumu ola bilər."
+    }
+  },
+  "imagery": {
+    "procedural": "Göstərilən səth tətbiqin yaratdığı bədii təsvirdir, bu dünyanın xəritəsi deyil.",
+    "limbDarkening": "Kənar qaralması modelə əsaslanır. Hərəkət edən səth və ləkələr illüstrasiyadır, canlı Günəş təsviri deyil.",
+    "naturalEarth": "Səth Natural Earth II xəritəsindəndir (CesiumJS ilə birlikdə gəlir).",
+    "cesiumMoon": "Səth CesiumJS ilə gələn real Ay təsvir xəritəsindəndir."
+  },
+  "galaxies": {
+    "milkyway": {
+      "name": "Süd Yolu",
+      "text": "Günəş sisteminin yerləşdiyi çubuqlu spiral qalaktikadır."
+    },
+    "sgra": {
+      "name": "Sagittarius A*",
+      "text": "Süd Yolunun mərkəzindəki ifrat kütləli qara dəlikdir, kütləsi Günəşdən təxminən 4 milyon dəfə çoxdur."
+    },
+    "lmc": {
+      "name": "Böyük Magellan Buludu",
+      "text": "Süd Yolunun ən parlaq peyk qalaktikasıdır, cənub səmasında görünür."
+    },
+    "smc": {
+      "name": "Kiçik Magellan Buludu",
+      "text": "Süd Yolunun ətrafında yerləşən kiçik cırtdan qalaktikadır."
+    },
+    "m31": {
+      "name": "Andromeda qalaktikası",
+      "text": "Bizə ən yaxın böyük spiral qalaktikadır və çılpaq gözlə görünə bilir."
+    },
+    "m33": {
+      "name": "Üçbucaq qalaktikası",
+      "text": "Yerli Qrupun üçüncü ən böyük qalaktikasıdır."
+    },
+    "m81": {
+      "name": "Bode qalaktikası",
+      "text": "Böyük Ayı bürcündə yerləşən parlaq spiral qalaktikadır."
+    },
+    "m82": {
+      "name": "Siqar qalaktikası",
+      "text": "Çox sürətli ulduz əmələgəlməsi ilə tanınan qalaktikadır."
+    },
+    "ngc253": {
+      "name": "Heykəltəraş qalaktikası",
+      "text": "Aktiv ulduz əmələgəlməsi olan parlaq spiral qalaktikadır."
+    },
+    "cena": {
+      "name": "Kentavr A",
+      "text": "Güclü radio şüalanması olan yaxın aktiv qalaktikadır."
+    },
+    "m51": {
+      "name": "Burulğan qalaktikası",
+      "text": "Kiçik qonşusu ilə qarşılıqlı təsirdə olan klassik spiral qalaktikadır."
+    },
+    "m101": {
+      "name": "Fırfıra qalaktikası",
+      "text": "Üzü bizə tərəf görünən böyük spiral qalaktikadır."
+    },
+    "m104": {
+      "name": "Sombrero qalaktikası",
+      "text": "Parlaq mərkəzi və tünd toz zolağı ilə tanınır."
+    },
+    "m87": {
+      "name": "Messier 87",
+      "text": "Mərkəzindəki qara dəliyin ilk təsviri 2019-cu ildə dərc olunmuş nəhəng elliptik qalaktikadır."
+    }
+  }
+}

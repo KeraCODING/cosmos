@@ -1,0 +1,572 @@
+{
+  "nav": {
+    "label": "Əsas naviqasiya",
+    "solar": "Günəş sistemi",
+    "earth": "Yer kəşfiyyatı",
+    "events": "Hadisələr",
+    "library": "Kolleksiyalar",
+    "galaxy": "Qalaktika"
+  },
+  "net": {
+    "online": "Onlayn",
+    "offline": "Oflayn rejim",
+    "nonet": "Bağlantı yoxdur",
+    "tip": "Onlayn və oflayn rejim arasında keçid"
+  },
+  "action": {
+    "back": "Geri",
+    "forward": "İrəli",
+    "home": "Əsas görünüş",
+    "search": "Axtarış",
+    "settings": "Parametrlər",
+    "fullscreen": "Tam ekran (F11)",
+    "help": "İdarəetmə və mənbələr",
+    "close": "Bağla",
+    "focus": "Fokusla",
+    "openEarth": "Yeri kəşf et",
+    "favorite": "Seçilmişlərə əlavə et",
+    "unfavorite": "Seçilmişlərdən çıxar",
+    "bookmark": "Bu görünüşü saxla",
+    "remove": "Sil",
+    "driveRover": "Robotu sür"
+  },
+  "common": {
+    "unavailable": "əlçatan deyil"
+  },
+  "panel": {
+    "search": "Axtarış",
+    "settings": "Parametrlər",
+    "events": "Astronomik hadisələr",
+    "library": "Kolleksiyalar",
+    "help": "İdarəetmə və mənbələr",
+    "hands": "Əl ilə idarəetmə",
+    "consent": "Kamera icazəsi"
+  },
+  "time": {
+    "paused": "Dayandırılıb",
+    "pause": "Dayandır (Boşluq)",
+    "resume": "Davam et (Boşluq)",
+    "faster": "Daha sürətli",
+    "slower": "Daha yavaş",
+    "reverse": "Zamanı geri çevir",
+    "now": "İndi",
+    "nowTip": "Cari vaxta və real sürətə qayıt",
+    "date": "Simulyasiya tarixi və vaxtı (UTC)",
+    "rate0": "real vaxt",
+    "rate1": "1 dəq/san",
+    "rate2": "1 saat/san",
+    "rate3": "1 gün/san",
+    "rate4": "1 həftə/san",
+    "rate5": "1 ay/san",
+    "auto": "Avto",
+    "autoTip": "Hərəkətin rahat görünməsi üçün sürət seçir",
+    "spinCap": "fırlanma və peyklər: 1 gün/san"
+  },
+  "scale": {
+    "label": "Miqyas rejimi",
+    "educational": "Tədris miqyası",
+    "true": "Həqiqi miqyas",
+    "note": {
+      "educational": "Tədris miqyası: ölçülər və məsafələr sıxılıb, real nisbətdə deyil. İstiqamətlər realdır.",
+      "true": "Həqiqi miqyas: ölçülər və məsafələr mütənasibdir, ona görə uzaqdan planetlərin çoxu görünmür."
+    }
+  },
+  "view": {
+    "orbits": "Orbitlər",
+    "labels": "Adlar"
+  },
+  "evidence": {
+    "confirmed": "Təsdiqlənmiş məlumat",
+    "confirmedTip": "Müşahidə və ya ölçmələrə əsaslanır",
+    "estimate": "Təxmin",
+    "estimateTip": "Elmi təxmin",
+    "model": "Model",
+    "modelTip": "Elmi model əsasında hesablanıb",
+    "artistic": "Bədii təsvir",
+    "artisticTip": "İllüstrasiyadır, müşahidə məlumatı deyil"
+  },
+  "info": {
+    "data": "Məlumat",
+    "learn": "Öyrən",
+    "level": "İzah səviyyəsi",
+    "beginner": "Başlanğıc",
+    "advanced": "Təkmil",
+    "facts": "Vacib faktlar",
+    "history": "Kəşf tarixi",
+    "significance": "Elmi əhəmiyyəti",
+    "related": "Əlaqəli obyektlər",
+    "reference": "NASA istinad səhifəsi",
+    "positionModel": "Mövqe simulyasiya vaxtı üçün astronomy-engine ilə hesablanıb.",
+    "factsEvidence": "Aşağıdakı qiymətlər burada göstərilən mənbədəndir.",
+    "source": "Mənbə:",
+    "updated": "Götürülüb: {{date}}",
+    "moons": "Peyklər"
+  },
+  "live": {
+    "sun": "Günəşdən: {{au}} a.v. ({{km}} milyon km)",
+    "earth": "Yerdən: {{km}} km",
+    "earthAu": "Yerdən: {{au}} a.v.",
+    "origin": "Günəş sistemi görünüşünün mərkəzi",
+    "parent": "{{name}} planetindən: {{km}} km"
+  },
+  "fact": {
+    "massE24Kg": "Kütlə",
+    "diameterKm": "Diametr",
+    "densityKgM3": "Orta sıxlıq",
+    "gravityMS2": "Səthdə cazibə",
+    "escapeVelocityKmS": "Qaçış sürəti",
+    "rotationPeriodH": "Fırlanma dövrü",
+    "lengthOfDayH": "Sutkanın uzunluğu",
+    "distanceFromSunE6Km": "Günəşdən məsafə",
+    "distanceFromEarth": "Yerdən məsafə",
+    "orbitalPeriodDays": "Orbital dövr",
+    "orbitalVelocityKmS": "Orbital sürət",
+    "orbitalInclinationDeg": "Orbitin meyli",
+    "orbitalEccentricity": "Orbitin eksentrisiteti",
+    "obliquityDeg": "Oxun meyli",
+    "meanTemperatureC": "Orta temperatur",
+    "moons": "Məlum peyklər",
+    "retrograde": "retroqrad",
+    "semiMajorKm": "Orbitin ölçüsü"
+  },
+  "unit": {
+    "e24kg": "{{v}} × 10²⁴ kq",
+    "km": "{{v}} km",
+    "kgm3": "{{v}} kq/m³",
+    "ms2": "{{v}} m/san²",
+    "kms": "{{v}} km/san",
+    "h": "{{v}} saat",
+    "e6km": "{{v}} milyon km",
+    "d": "{{v}} gün",
+    "deg": "{{v}}°",
+    "c": "{{v}} °C"
+  },
+  "horizons": {
+    "button": "JPL Horizons ilə müqayisə et",
+    "busy": "JPL Horizons ilə əlaqə qurulur…",
+    "result": "JPL Horizons ilə fərq: {{date}} anında {{km}} km.",
+    "fresh": "Alınıb: {{date}}",
+    "cached": "Saxlanmış nəticə: {{date}}",
+    "offline": "Oflayn rejimdəsiniz və bu vaxt üçün saxlanmış nəticə yoxdur.",
+    "network": "JPL Horizons ilə əlaqə qurulmadı və saxlanmış nəticə yoxdur.",
+    "parse": "JPL Horizons cavabı oxunmadı."
+  },
+  "search": {
+    "placeholder": "Planetləri və peykləri axtar",
+    "hint": "Azərbaycan, ingilis və rus adları ilə işləyir.",
+    "none": "Heç nə tapılmadı."
+  },
+  "event": {
+    "intro": "{{date}} tarixindən sonrakı 12 ay üçün hesablanıb. Vaxtlar pik və ya dəqiq düzülmə anını göstərir.",
+    "computing": "Hadisələr hesablanır…",
+    "none": "Bu filtrlərə uyğun hadisə yoxdur.",
+    "view": "Keç",
+    "solarEclipse_total": "Tam Günəş tutulması",
+    "solarEclipse_annular": "Həlqəvi Günəş tutulması",
+    "solarEclipse_partial": "Qismən Günəş tutulması",
+    "lunarEclipse_total": "Tam Ay tutulması",
+    "lunarEclipse_partial": "Qismən Ay tutulması",
+    "lunarEclipse_penumbral": "Yarımkölgə Ay tutulması",
+    "season_marchEquinox": "Mart gecə-gündüz bərabərliyi",
+    "season_juneSolstice": "İyun gündönümü",
+    "season_septemberEquinox": "Sentyabr gecə-gündüz bərabərliyi",
+    "season_decemberSolstice": "Dekabr gündönümü",
+    "opposition": "{{body}} qarşıdurmada",
+    "fullMoon": "Bədirlənmiş Ay",
+    "newMoon": "Yeni Ay"
+  },
+  "eventKind": {
+    "solarEclipse": "Günəş tutulmaları",
+    "lunarEclipse": "Ay tutulmaları",
+    "season": "Fəsillər",
+    "opposition": "Qarşıdurmalar",
+    "fullMoon": "Bədirlənmələr",
+    "newMoon": "Yeni Aylar"
+  },
+  "library": {
+    "favorites": "Seçilmişlər",
+    "bookmarks": "Saxlanmış görünüşlər",
+    "collections": "Kolleksiyalarım",
+    "recent": "Son baxılanlar",
+    "noFavorites": "Obyekti buraya əlavə etmək üçün ulduz düyməsini basın.",
+    "noBookmarks": "Görünüşü və tarixi saxlamaq üçün obyektin əlfəcin düyməsini basın.",
+    "noRecent": "Açdığınız obyektlər burada görünəcək.",
+    "newName": "Yeni kolleksiyanın adı",
+    "create": "Yarat",
+    "addTo": "Obyekt əlavə et…",
+    "nameNeeded": "Əvvəlcə kolleksiyanın adını yazın.",
+    "bookmarkSaved": "Görünüş Kolleksiyalara saxlanıldı."
+  },
+  "help": {
+    "left": "Sol düymə ilə sürüşdürmə",
+    "right": "Sağ düymə ilə sürüşdürmə",
+    "wheel": "Siçan çarxı",
+    "click": "Klik",
+    "double": "İkiqat klik",
+    "space": "Boşluq",
+    "rotate": "Kameranı fırlat",
+    "pan": "Yana sürüşdür",
+    "zoom": "Yaxınlaşdır / uzaqlaşdır",
+    "select": "Obyekti seç",
+    "focus": "Obyekti fokusla",
+    "move": "Kameranı hərəkət etdir",
+    "focusKey": "Seçilmiş obyekti fokusla",
+    "esc": "Paneli bağla və ya geri qayıt",
+    "pause": "Dayandır və ya davam et",
+    "full": "Tam ekran",
+    "search": "Axtarış",
+    "credits": "Məlumatlar və kitabxanalar",
+    "creditsText": "NASA NSSDCA məlumat cədvəlləri; JPL Horizons; CDS VizieR vasitəsilə ESA Hipparcos kataloqu; CesiumJS ilə gələn Tycho-2 səma xəritəsi və Natural Earth II; Natural Earth vektorları; Don Cross-un astronomy-engine kitabxanası; three.js; CesiumJS. Asteroid orbitləri: NASA JPL Kiçik Cisimlər Bazası."
+  },
+  "quality": {
+    "low": "Aşağı",
+    "medium": "Orta",
+    "high": "Yüksək",
+    "ultra": "Ultra"
+  },
+  "perf": {
+    "title": "Performans monitoru",
+    "fps": "FPS",
+    "paused3d": "kosmos görünüşü dayandırılıb",
+    "quality": "Keyfiyyət",
+    "calls": "Çəkmə çağırışları",
+    "triangles": "Üçbucaqlar",
+    "textures": "Teksturalar (planet)",
+    "memory": "JS yaddaşı",
+    "gpu": "GPU"
+  },
+  "settings": {
+    "general": "Ümumi",
+    "language": "Dil",
+    "education": "Tədris rejimi",
+    "offline": "Oflayn rejim",
+    "offlineNote": "Yalnız daxili və saxlanmış məlumatlardan istifadə edir",
+    "graphics": "Qrafika",
+    "quality": "Qrafika keyfiyyəti",
+    "resolution": "Pəncərə ölçüsü",
+    "auto": "Cari ölçü qalsın",
+    "renderScale": "Render miqyası",
+    "fps": "FPS həddi",
+    "unlimited": "Ekran tezliyi",
+    "texture": "Tekstura keyfiyyəti",
+    "post": "Son emal",
+    "bloom": "İşıq yayılması (bloom)",
+    "bloomOff": "Aşağı profildə istifadə olunmur",
+    "aa": "Kənar hamarlama",
+    "atmosphere": "Atmosfer səpilməsi",
+    "eclipse": "Tutulma kölgələri",
+    "eclipseNote": "Həqiqi miqyasda görünür",
+    "sound": "Səs",
+    "soundOn": "İnterfeys səsləri",
+    "volume": "Səs həcmi",
+    "ambient": "Fon səsi",
+    "navigation": "Naviqasiya",
+    "rotateSpeed": "Fırlanma həssaslığı",
+    "zoomSpeed": "Yaxınlaşma həssaslığı",
+    "invertY": "Şaquli fırlanmanı tərsinə çevir",
+    "interface": "İnterfeys",
+    "uiScale": "İnterfeys miqyası",
+    "perf": "Performans monitoru",
+    "accessibility": "Əlçatanlıq",
+    "motion": "Hərəkəti azalt",
+    "contrast": "Yüksək kontrast",
+    "largeText": "Böyük mətn",
+    "storage": "Yaddaş",
+    "cache": "Yüklənmiş məlumatlar",
+    "cacheNote": "Xəritə kadrları və elmi cavablar",
+    "measuring": "ölçülür…",
+    "clear": "Yüklənmiş məlumatları sil",
+    "cleared": "Yüklənmiş məlumatlar silindi.",
+    "logs": "Xəta jurnalını göstər",
+    "version": "COSMOS {{v}} · Electron {{e}}",
+    "skyEffects": "Meteorlar və parıldayan ulduzlar",
+    "skyEffectsNote": "Bədii effektdir. Ulduzların mövqeləri realdır",
+    "asteroids": "Asteroidlər və Koyper qurşağı",
+    "asteroidsNote": "NASA JPL-in real orbitləri, nöqtələrlə göstərilir",
+    "autoRes": "Avtomatik ölçü",
+    "autoResNote": "FPS düşəndə daxili ölçünü azaldır"
+  },
+  "welcome": {
+    "text": "Günəş sistemini real mövqelər, fırlanma və elmi məlumatlarla kəşf edin.",
+    "note": "Dili istənilən vaxt Parametrlərdən dəyişə bilərsiniz.",
+    "start": "Kəşfə başla"
+  },
+  "earth": {
+    "loading": "Qlobus yüklənir…",
+    "hover": "Koordinatları görmək üçün göstəricini Yerin üzərinə gətirin.",
+    "noPoint": "Göstərici Yerin üzərində deyil.",
+    "n": "Ş",
+    "s": "C",
+    "e": "Şq",
+    "w": "Q",
+    "height": "hündürlük {{m}} m",
+    "search": "Yer axtar",
+    "searching": "Axtarılır…",
+    "search_offline": "Yer axtarışı üçün bağlantı lazımdır və bu axtarış saxlanmayıb.",
+    "search_network": "Yer axtarışı xidməti ilə əlaqə qurulmadı.",
+    "layer": "Xəritə qatı",
+    "layer_natural": "Natural Earth (oflayn)",
+    "layer_bluemarble": "NASA Blue Marble",
+    "layer_osm": "OpenStreetMap",
+    "cachedOnly": "Bağlantı yoxdur: yalnız əvvəl baxılmış ərazilər görünəcək.",
+    "terrain": "3D relyef",
+    "lighting": "Real gecə və gündüz",
+    "borders": "Ölkə sərhədləri",
+    "cities": "Böyük şəhərlər",
+    "reset": "Qlobal görünüşə qayıt",
+    "limits": "3D binalar ayrıca lisenziyalı məlumat xidməti tələb edir və hələ daxil edilməyib. Sərhəd və şəhər məlumatları sadələşdirilib.",
+    "boundaries": "Sərhədlər və şəhərlər: Natural Earth (ictimai mülkiyyət). Sərhədlər yalnız istinad üçün göstərilir."
+  },
+  "date": {
+    "months": [
+      "yanvar",
+      "fevral",
+      "mart",
+      "aprel",
+      "may",
+      "iyun",
+      "iyul",
+      "avqust",
+      "sentyabr",
+      "oktyabr",
+      "noyabr",
+      "dekabr"
+    ]
+  },
+  "hint": {
+    "selectFirst": "Əvvəlcə obyekt seçin."
+  },
+  "error": {
+    "webgl": "Qrafika konteksti itdi. Görüntü boş qalarsa, COSMOS-u yenidən başladın.",
+    "texture": "Səth təsviri yüklənmədi, əvəzində sadə rəng göstərilir.",
+    "layer": "Bu xəritə qatı yüklənmədi.",
+    "events": "Hadisələr hesablanmadı.",
+    "earth": "Yer qlobusu işə düşmədi. Təfərrüatlar xəta jurnalındadır."
+  },
+  "hand": {
+    "mode": "İdarəetmə rejimi",
+    "m": {
+      "mouse": "Siçan",
+      "hand": "Əl",
+      "hybrid": "Hibrid",
+      "mouseNote": "Yalnız siçan və klaviatura. Kamera sönülüdür.",
+      "handNote": "Jestlər naviqasiyanı, seçimi və əl menyusunu idarə edir. Siçan və klaviatura yenə işləyir.",
+      "hybridNote": "Veb-kamera görünüşü hərəkət etdirir və yaxınlaşdırır. Obyektləri siçan seçir."
+    },
+    "active": "Kamera aktivdir",
+    "off": "Kameranı söndür",
+    "on": "Kameranı yandır",
+    "stopped": "Kamera söndürüldü.",
+    "camera": "Kamera",
+    "cameraN": "Kamera {{n}}",
+    "noPreview": "Kamera sönülüdür. Heç bir video oxunmur.",
+    "previewNote": "Önizləmə güzgü kimi göstərilir. Yalnız burada görünür və heç vaxt yazılmır.",
+    "privacy": "Əl izləmə tamamilə bu kompüterdə işləyir. Video saxlanmır və heç yerə göndərilmir. Qırmızı düymə və ya Ctrl+Shift+C ilə istənilən vaxt söndürə bilərsiniz.",
+    "action": "Əməliyyat",
+    "ms": "{{v}} ms",
+    "perSec": "saniyədə {{v}}",
+    "gestures": "Jestlər",
+    "gesturesNote": "İstənilən jesti söndürə və ya onun funksiyasını dəyişə bilərsiniz.",
+    "sensitivity": "Həssaslıq və aşkarlama",
+    "stat": {
+      "state": "İzləmə vəziyyəti",
+      "hands": "Aşkarlanan əllər",
+      "pose": "Əlin cari forması",
+      "rate": "Təhlil olunan kadrlar",
+      "infer": "Təhlil müddəti",
+      "processor": "Prosessor"
+    },
+    "state": {
+      "off": "Kamera sönülüdür",
+      "starting": "Başladılır…",
+      "searching": "Əl axtarılır",
+      "tracking": "İzlənir",
+      "lost": "Əl itdi, mövqe saxlanılır"
+    },
+    "pose": {
+      "none": "Yoxdur",
+      "open": "Açıq ovuc",
+      "fist": "Yumruq",
+      "point": "Göstərmə",
+      "victory": "İki barmaq",
+      "pinch": "Çimdik"
+    },
+    "proc": {
+      "GPU": "Qrafik kart",
+      "CPU": "Əsas prosessor"
+    },
+    "set": {
+      "handMove": "Hərəkət həssaslığı",
+      "handMoveNote": "Kameranın əlinizlə nə qədər hərəkət etdiyi",
+      "handZoom": "Yaxınlaşma həssaslığı",
+      "handZoomNote": "Çimdiklə yaxınlaşmanın sürəti",
+      "handSmooth": "Hamarlama",
+      "handSmoothNote": "Yüksək dəyər daha sabit, aşağı dəyər daha çevikdir",
+      "handConfirm": "Təsdiq müddəti",
+      "handConfirmNote": "Jestin qəbul olunması üçün saxlanma müddəti",
+      "handDetect": "Aşkarlama həddi",
+      "handDetectNote": "Olmayan əllər görünürsə, artırın",
+      "handTrack": "İzləmə həddi",
+      "handTrackNote": "Zəif işıqda izləmə kəsilirsə, azaldın"
+    },
+    "a": {
+      "rotate": "Kameranı fırlat",
+      "pan": "Kameranı yana sürüşdür",
+      "zoom": "Yaxınlaşdır",
+      "select": "Seç",
+      "freeze": "Kamera hərəkətini dayandır",
+      "pauseTime": "Zamanı dayandır və ya davam etdir",
+      "highlight": "Vurğula",
+      "menu": "Əl menyusunu aç",
+      "home": "Əsas görünüşə keç"
+    },
+    "g": {
+      "openPalm": {
+        "name": "Açıq ovuc",
+        "how": "Kameranı döndərmək üçün əlinizi açıb hərəkət etdirin."
+      },
+      "handMove": {
+        "name": "Əl hərəkəti",
+        "how": "Görünüşü üfüqi və şaquli sürüşdürmək üçün iki barmağı qaldırıb əlinizi hərəkət etdirin."
+      },
+      "pinchZoom": {
+        "name": "Çimdiklə yaxınlaşdırma",
+        "how": "Çimdiyi bir an saxlayın, sonra baş və şəhadət barmağını açıb-yumaraq yaxınlaşdırın."
+      },
+      "pinchSelect": {
+        "name": "Çimdik və buraxma",
+        "how": "Bir obyekti göstərin, sonra onu seçmək üçün qısa çimdik edib buraxın."
+      },
+      "fist": {
+        "name": "Yumruq",
+        "how": "Kamera hərəkətini dayandırmaq üçün əlinizi yumun."
+      },
+      "twoHandPinch": {
+        "name": "İki əllə çimdik",
+        "how": "Hər iki əllə çimdik edib onları aralayın və ya yaxınlaşdırın."
+      },
+      "point": {
+        "name": "Göstərmə",
+        "how": "Obyekti vurğulamaq üçün şəhadət barmağınızla göstərin."
+      },
+      "palmHold": {
+        "name": "Saxlanılan açıq ovuc",
+        "how": "İnterfeysi göstərmək üçün açıq ovcu bir saniyədən çox sabit saxlayın."
+      },
+      "dwellSelect": {
+        "name": "Göstər və saxla",
+        "how": "Seçmək üçün kursorun ətrafındakı halqa dolana qədər obyekti göstərməyə davam edin."
+      }
+    },
+    "cal": {
+      "title": "Kalibrləmə",
+      "none": "Kalibrləmə edilməyib. Standart dəyərlər işlənir.",
+      "saved": "Sizin kalibrləməniz işlənir.",
+      "start": "Kalibrləməyə başla",
+      "reset": "Standart dəyərlərə qayıt",
+      "cancel": "Ləğv et",
+      "step": "Addım {{n}} / 4: {{text}}",
+      "palm": "Kameraya açıq ovcunuzu göstərin.",
+      "sweep": "Açıq əlinizi sola və sağa hərəkət etdirin.",
+      "pinch": "Baş və şəhadət barmağınızı birləşdirib saxlayın.",
+      "still": "Əlinizi sabit saxlayın.",
+      "done": "Kalibrləmə saxlanıldı.",
+      "prompt": "Ən yaxşı nəticə üçün əl panelində kalibrləmə edin."
+    },
+    "consent": {
+      "text": "COSMOS əl izləmə üçün veb-kameradan istifadəyə icazənizi istəyir.",
+      "a": "Video yalnız bu kompüterdə təhlil olunur.",
+      "b": "Video heç vaxt saxlanmır və heç yerə göndərilmir.",
+      "c": "COSMOS hər dəfə başlayanda yenidən soruşulacaq.",
+      "allow": "Kameraya icazə ver",
+      "cancel": "İndi yox"
+    },
+    "fail": {
+      "denied": "Kameraya giriş bağlıdır. Windows məxfilik parametrlərində masaüstü tətbiqlərinə kameradan istifadəyə icazə verin.",
+      "missing": "Kamera tapılmadı.",
+      "busy": "Kamera əlçatan deyil və ya başqa tətbiq istifadə edir.",
+      "model": "Əl izləmə başlamadı. Təfərrüatlar xəta jurnalındadır.",
+      "unknown": "Kamera başladılmadı."
+    },
+    "menu": {
+      "title": "Əl menyusu",
+      "hint": "Açıq ovcu düymənin üzərində sabit saxlayın və ya çimdik edib buraxın.",
+      "prev": "Əvvəlki obyekt",
+      "next": "Növbəti obyekt",
+      "panel": "Əl parametrləri"
+    },
+    "short": {
+      "openPalm": "Döndər",
+      "handMove": "Sürüşdür",
+      "pinchZoom": "Yaxınlaşdır",
+      "pinchSelect": "Seç",
+      "dwellSelect": "Saxla, seç",
+      "fist": "Dayandır",
+      "twoHandPinch": "İki əl: zoom",
+      "point": "Göstər",
+      "palmHold": "Menyu"
+    }
+  },
+  "effects": {
+    "note": "Meteorlar və ulduz parıltısı bədii effektdir."
+  },
+  "boot": {
+    "credit": "Proqram ghsotpact komandası tərəfindən yaradılmışdır.",
+    "start": "Başladılır…",
+    "stars": "Ulduz kataloqu yüklənir…",
+    "asteroids": "Asteroid orbitləri yüklənir…",
+    "textures": "Yer xəritəsi hazırlanır…",
+    "shaders": "Qrafika hazırlanır…",
+    "ready": "Hazırdır"
+  },
+  "deep": {
+    "loading": "Qalaktika hazırlanır…",
+    "back": "Günəş sistemi",
+    "note": "Mövqelər realdır, qalaktika görüntüləri bədii modeldir",
+    "sunHere": "Günəş buradadır",
+    "distance": "Məsafə",
+    "measurements": "Məsafə ölçmələri",
+    "mly": "{{v}} milyon işıq ili",
+    "kly": "{{v}} min işıq ili",
+    "dataNote": "Mövqe və məsafə kataloq məlumatıdır.",
+    "visualNote": "Forma, rəng və fırlanma bədii modeldir.",
+    "kind": {
+      "spiral": "Spiral qalaktika",
+      "elliptical": "Elliptik qalaktika",
+      "irregular": "Qeyri-düzgün qalaktika",
+      "lenticular": "Linzavari və ya Sa tipli qalaktika",
+      "blackhole": "İfrat kütləli qara dəlik"
+    }
+  },
+  "rover": {
+    "loading": "Mars relyefi hazırlanır…",
+    "welcome": "W/S ilə sür, A/D ilə döndər. Mayaklara yaxınlaşıb E bas.",
+    "failed": "Mars rejimi başladılmadı.",
+    "tooFar": "Tədqiqat nöqtəsinə daha yaxınlaşın.",
+    "title": "Mars robotu",
+    "exit": "Çıx",
+    "map": "Xəritə",
+    "speed": "Sürət",
+    "driven": "Gedilən yol",
+    "found": "Tədqiqat",
+    "next": "Növbəti nöqtə",
+    "position": "Təxmini mövqe",
+    "scan": "Süxuru analiz et (E)",
+    "keys": "W/S və ya oxlar: sür · A/D: döndər · siçan: kamera · Esc: çıx",
+    "hand": "Açıq ovcu mərkəzdən irəli-geri və yanlara apar. Yumruq dayandırır.",
+    "note": "Rəng və iri relyef Jezero bölgəsinin real məlumatıdır, məsafə sıxılıb. Robot, süxurlar və incə detallar illüstrasiyadır.",
+    "ms": "{{v}} m/san",
+    "m": "{{v}} m",
+    "allFound": "Hamısı tapıldı",
+    "gDrive": "Sür",
+    "gStop": "Dayan",
+    "gScan": "Analiz",
+    "facts": [
+      "Bazalt: vulkan mənşəli qaranlıq süxur, Marsda geniş yayılıb.",
+      "Dəmir oksidi: Marsın qırmızı rənginin əsas səbəbidir.",
+      "Karbonatlar: suyun iştirakı ilə yarana bilən minerallardır.",
+      "Gil mineralları: keçmişdə suyun təsirinə işarə edir.",
+      "Jezero krateri: qədim göl və çay deltası izləri ilə tanınır."
+    ]
+  }
+}

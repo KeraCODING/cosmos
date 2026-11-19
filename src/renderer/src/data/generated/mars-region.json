@@ -1,0 +1,12 @@
+{
+ "source": "NASA Mars Trek: Viking MDIM 2.1 colour mosaic and MGS MOLA elevation",
+ "url": "https://trek.nasa.gov/mars/",
+ "retrieved": "2026-11-18",
+ "name": "Jezero",
+ "west": 75.9375,
+ "north": 21.09375,
+ "spanDeg": 4.21875,
+ "centerLat": 18.984375,
+ "centerLon": 78.046875,
+ "elevationSize": 257
+}

@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="az">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>COSMOS</title>
+    <style>
+      html, body { margin: 0; height: 100%; background: #030408; overflow: hidden; }
+      #boot { position: fixed; inset: 0; z-index: 100; display: grid; place-content: center; justify-items: center; gap: 18px; background: radial-gradient(ellipse at 50% 42%, #1a1020 0, #07070f 46%, #020205 100%); color: #fff; transition: opacity .55s; font-family: Impact, Haettenschweiler, "Arial Narrow Bold", "Arial Black", sans-serif; }
+      #boot.done { opacity: 0; pointer-events: none; }
+      .boot-title { font-size: clamp(76px, 15vw, 190px); line-height: .92; letter-spacing: .02em; transform: skewX(-7deg); color: #fff; -webkit-text-stroke: 3px #000; paint-order: stroke fill; text-shadow: 5px 5px 0 #000, 9px 9px 0 #e08a4c; }
+      .boot-credit { max-width: 88vw; text-align: center; font-size: clamp(21px, 3.1vw, 38px); line-height: 1.12; transform: skewX(-7deg); color: #ffd9a8; -webkit-text-stroke: 1.2px #000; paint-order: stroke fill; text-shadow: 3px 3px 0 #000; letter-spacing: .025em; }
+      .boot-bar { width: min(460px, 72vw); height: 9px; border: 2px solid #000; outline: 1px solid #5a4638; background: #16131a; transform: skewX(-18deg); }
+      .boot-bar i { display: block; height: 100%; width: 0; background: linear-gradient(90deg, #e08a4c, #ffd08f); transition: width .25s; }
+      .boot-step { min-height: 1.3em; font: 500 14px "Segoe UI", sans-serif; color: #b7aba1; letter-spacing: .03em; }
+    </style>
+  </head>
+  <body>
+    <div id="boot"><div class="boot-title">COSMOS</div><div class="boot-credit" id="boot-credit"></div><div class="boot-bar" role="progressbar" aria-valuemin="0" aria-valuemax="100"><i id="boot-fill"></i></div><div class="boot-step" id="boot-step"></div></div>
+    <canvas id="space"></canvas>
+    <div id="labels"></div>
+    <div id="earth" hidden><div id="globe"></div></div>
+    <div id="chrome"></div>
+    <script type="module" src="./src/main.ts"></script>
+  </body>
+</html>

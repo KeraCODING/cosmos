@@ -1,0 +1,12 @@
+{
+  "retrieved": "2026-11-18",
+  "stars": {
+    "source": "ESA Hipparcos Catalogue (I/239) via CDS VizieR",
+    "count": 117933
+  },
+  "smallBodies": {
+    "source": "JPL Small-Body Database Query API",
+    "count": 15464,
+    "refJd": 2461000.5
+  }
+}

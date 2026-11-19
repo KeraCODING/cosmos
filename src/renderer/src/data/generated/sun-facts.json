@@ -1,0 +1,10 @@
+{
+  "source": "NASA NSSDCA Sun Fact Sheet",
+  "url": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/sunfact.html",
+  "retrieved": "2026-11-18",
+  "massE24Kg": 1988400,
+  "radiusKm": 695700,
+  "densityKgM3": 1408,
+  "gravityMS2": 274,
+  "escapeVelocityKmS": 617.6
+}
